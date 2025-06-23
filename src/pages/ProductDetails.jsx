@@ -144,7 +144,7 @@ useEffect(() => {
 
     return (
         <div>
-            <InquiryModal show={show} handleClose={handleClose} inquiryType={'PRODUCT'} productData={products} categoryId={categoryId} subCategoryId={subCategoryId}  />
+            <InquiryModal show={show} handleClose={handleClose} inquiryType={'PRODUCT'} source={'PRODUCT'} productData={products} categoryId={categoryId} subCategoryId={subCategoryId}  />
             <SampleReqModal show={showSample} handleSampleModleClose={handleSampleModleClose} data={products} categoryId={categoryId} subCategoryId={subCategoryId} />
 
             <NavBar />

@@ -33,7 +33,8 @@ function Catalogue() {
         email: "",
         mobile: "",
         message: "",
-        inquiryType: "CATALOGUE"
+        inquiryType: "CATALOGUE" , 
+        source:"CATALOGUE"
     });
 
     const [errors, setErrors] = useState({});
@@ -80,7 +81,8 @@ function Catalogue() {
                     email: "",
                     mobile: "",
                     message: "",
-                    inquiryType: "CATALOGUE"
+                    inquiryType: "CATALOGUE",
+                     source:"CATALOGUE"
                 });
             }
         } catch (error) {

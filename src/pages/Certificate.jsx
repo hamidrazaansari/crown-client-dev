@@ -28,7 +28,7 @@ function Certificate() {
     const [imageToDownload, setImageToDownload] = useState(null);
     const [countries, setCountries] = useState([]);
     const [formData, setFormData] = useState({
-        country: "", name: "", email: "", mobile: "", message: "", inquiryType: "CERTIFICATE"
+        country: "", name: "", email: "", mobile: "", message: "", inquiryType: "CERTIFICATE" ,  source:"CERTIFICATE"
     });
     const [errors, setErrors] = useState({});
 
@@ -97,10 +97,12 @@ function Certificate() {
                     email: "",
                     mobile: "",
                     message: "",
-                    inquiryType: "CERTIFICATE"
+                    inquiryType: "CERTIFICATE",
+                    source: 'CERTIFICATE'
                 });
             }
         } catch (error) {
+            
             const errData = error.response?.data?.errors || {};
             setErrors(errData);
             console.error(error);

@@ -13,7 +13,7 @@ import Swal from 'sweetalert2'
 import { CountrySelect } from "react-country-state-city";
 
 
-function InquiryModal({ show, handleClose, inquiryType, productData, categoryId, subCategoryId }) {
+function InquiryModal({ show, handleClose, inquiryType, productData, categoryId, subCategoryId , source }) {
 
     useEffect(() => {
         console.log(productData);
@@ -33,6 +33,7 @@ function InquiryModal({ show, handleClose, inquiryType, productData, categoryId,
         mobile: "",
         message: "",
         inquiryType: inquiryType,
+        source: source
 
     });
 
@@ -106,7 +107,8 @@ function InquiryModal({ show, handleClose, inquiryType, productData, categoryId,
                 email: "",
                 mobile: "",
                 inquiryType: inquiryType, // Keep inquiryType
-                product: productId,       // Keep productId
+                product: productId, 
+                source:source      // Keep productId
             });
         } catch (error) {
 

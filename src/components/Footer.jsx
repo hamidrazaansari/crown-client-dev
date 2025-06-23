@@ -51,7 +51,7 @@ function Footer() {
     const handleSubmit = async (e) => {
         e.preventDefault()
         try {
-            const response = await axios.post(`${API_URL}/newsletters`, { email },
+            const response = await axios.post(`${API_URL}/newsletters`, { email , source: "HOMEPAGE" },
                 {
                     headers: {
                         'Authorization': `Bearer ${token}`,

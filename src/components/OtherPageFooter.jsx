@@ -15,7 +15,7 @@ function OtherPageFooter() {
   const handleClose = () => setShow(false);
   return (
     <div>
-      <InquiryModal show={show} handleClose={handleClose} inquiryType={'GENERAL'} />
+      <InquiryModal show={show} handleClose={handleClose} inquiryType={'GENERAL'} source={'EXPORT'}  />
 
       <div>
         <div className="explore">
