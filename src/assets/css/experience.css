@@ -1,0 +1,106 @@
+.experience {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    z-index: 10;
+    overflow: hidden;
+    z-index: 5;
+    background-color: #fff;
+  }
+  
+  .experience .experience-top {
+    position: absolute;
+    top: 1%;
+    left: 2%;
+    font-size: 3rem;
+    font-family: 'bold';
+  }
+  
+  .experience .experience-middle-container {
+    width: 100%;
+    height: 75vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .experience .experience-middle-container video{
+    height: 178px;
+
+  }
+  
+  .experience .experience-middle {
+    transform: scale(calc(var(--progress1) * 8.5)) !important;
+    transform-origin: center;
+    font-size: 3rem;
+    font-family: 'bold';
+  }
+  
+  .experience .experience-bottom {
+    position: absolute;
+    bottom: 1%;
+    right: 2%;
+    font-size: 3rem;
+    font-family: 'bold';
+  }
+  
+
+  .gallery-heading {
+    font-size: 55px;
+    color: #000000;
+    font-family: 'dion';
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-top: 0px;
+}
+
+
+.experience {
+  position: relative;
+  text-align: center;
+  padding: 0px 0; /* Adjust spacing */
+  overflow: hidden;
+  padding-top: 0;
+}
+
+.gallery-heading {
+  position: relative;
+  z-index: 10; /* Ensures heading stays on top */
+  margin-bottom: 40px;
+}
+
+.experience-middle-container {
+  position: relative;
+  width: 100%;
+  height: 100vh; /* Adjust height as needed */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden; /* Prevents video from overlapping */
+}
+
+.experience-video {
+  transform-origin: center center; /* Ensures smooth scaling */
+}
+@media (max-width:500px) {
+  .experience{
+    padding: 0 !important;
+  }
+  .blog{
+    padding: 0;
+  }
+
+  .experience .experience-middle-container video{
+    height: 100px;
+  }
+  .experience .experience-middle-container {
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+.experience{
+  height: 50vh;
+}
+}

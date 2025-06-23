@@ -1,0 +1,435 @@
+.Environmental-banner{
+    position: relative;
+    height: 90vh;
+    width: 100%;
+    background:url('../image/envbg.png') ;
+    background-size: cover;
+    background-position: bottom;
+    padding-top: 8%;
+
+}
+
+
+.env-contents {
+    width: 34%;
+    padding: 40px;
+    border-radius: 20px;
+    margin: auto;
+    margin-right: 15%;
+    background: rgb(0 0 0 / 6%);
+    box-shadow: 0 8px 32px 0 rgb(31 38 135 / 0%);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border-radius: 30px;
+    border: 1px solid rgb(255 255 255 / 78%);
+}
+.env-contents h1{
+    color: #fff;
+    font-size: 34px;
+    font-family: 'Inter var';
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.env-contents button {
+    background-color: #E69B00;
+    color: #fff;
+    border: navajowhite;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 157px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 500;
+    font-size: 13px;
+    border-radius: 40px;
+    margin: 0px auto;
+}
+.env-contents button svg{
+    font-size: 22px;
+    margin-left: 10px;
+}
+.envoirementabout {
+    background-color: #fff;
+    padding: 60px 0;
+    margin-top: -20px;
+    position: relative;
+    z-index: 10;
+}
+.envoirementabout img{
+    height: 450px;
+}
+.envoirementabout h2 {
+    font-size: 37px;
+    font-family: dion;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.envoirementabout h3{
+    font-size: 25px;
+    font-weight: 300;
+    font-family: inter;
+    background: linear-gradient(0deg, rgba(171,171,171,1) 0%, rgba(151,143,121,1) 44%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 20px 0 40px;
+}
+.envoirementabout p{
+    font-size: 17px;
+    font-family: kanit;
+    margin: 20px 0;
+    opacity: 0.8;
+}
+.commitment{
+    background: url(../image/commit-bg.png);
+    background-size: cover;
+    padding: 100px 0;
+    margin-top: -20px;
+    background-position: center;
+}
+
+.commit-heading{
+    font-family: JuliusSansOne;
+    font-size: 30px;
+    color: #000;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.commitment-card {
+    background: #fff;
+    display: flex
+;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    padding: 10px;
+    border-radius: 13px;
+    border: 1px solid #00000068;
+    margin: 20px 20px 40px;
+    height: 359px;
+}
+
+.EnvHeader {
+    position: absolute;
+    z-index: 5;
+    padding: 20px;
+    top: 115px;
+    background: rgb(255 255 255 / 18%);
+    box-shadow: 0 7px 42px 0 rgba(0, 0, 0, 0.057);
+    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(4px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    left: 70px;
+    letter-spacing: 1px;
+}
+.EnvHeader h1{
+    font-family: 'dion';
+    color: #fff;
+    font-size: 60px;
+}
+.commitment-card img {
+    height: 90px;
+    margin: 20px 0;
+}
+.commitment-card h3{
+    color: #000;
+    font-family: dion;
+    font-weight: 500;
+    font-size: 22px;
+    text-align: center;
+    padding: 0 0px 10px;
+    letter-spacing: 1px;
+    text-align: center;
+    text-transform: uppercase !important;
+    margin:0px 10px;
+    line-height: 30px;
+}
+.commitment-card p {
+    padding: 0 10px;
+    font-size: 15px;
+    font-family: 'LightInter';
+    line-height: 25px !important;
+}
+.passports{
+    background: linear-gradient(90deg, hsla(194, 100%, 9%, 1) 0%, hsla(166, 37%, 34%, 1) 100%);
+    padding: 80px 0;
+    position: relative;
+}
+.passports::before{
+    position: absolute;
+    content: '';
+    height: 100px;
+    width: 100px;
+    background: url(../image//env-design.png);
+    z-index: 5;
+    top: 90px;
+    left: 0;
+    background-size: contain;
+    transform: scaleX(-1);
+}
+.passports::after{
+    position: absolute;
+    content: '';
+    height: 100px;
+    width: 100px;
+    background: url(../image//env-design.png);
+    z-index: 5;
+    top: 90px;
+    right: 5%;
+    background-size: contain;
+}
+.passports h2{
+    color: #f5f6ef;
+    font-family: inter;
+    font-size: 30px;
+    margin: 0;
+}
+.passports p{
+    color: #F5F6EF;
+    font-family: inter;
+    font-weight: 200;
+    margin: 15px 0 40px ;
+    font-size: 21px;
+    letter-spacing: 1px;
+}
+
+.optmization-box{
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 85%;
+    border-radius: 32px;
+    overflow: hidden;
+}
+.optmization-box img{
+    height: 180px;
+    margin: 20px 0;
+}
+.optmization-box p{
+    margin-bottom: 0;
+    padding: 10px 0;
+    width: 100%;
+    background: #00000038;
+    text-align: center;
+    font-size: 12px;
+    color: #000;
+    font-family: 'Kanit';
+}
+.passports .button{
+    background-color: #459D95;
+    color: #fff;
+    border: none;
+    width: 90%;
+    height: 50px;
+    text-align: center;
+    font-size: 16px;
+    font-family: inter;
+    border-radius: 4px;
+    margin: 20px auto;
+}
+.csr{
+    background-color: #DEDEDE;
+    padding: 80px 0;
+}
+.csr h2{
+    color: #367667;
+    font-family: inter;
+    font-weight: 600;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.csr p {
+    font-family: Inter;
+    background: linear-gradient(0deg, rgba(151,143,121,1) 0%, rgba(78,134,120,1) 44%);
+    -webkit-background-clip: text; /* For WebKit browsers */
+    -webkit-text-fill-color: transparent; /* For WebKit browsers */
+    background-clip: text;
+    color: transparent;
+    margin-bottom: 10px;
+}
+@media (max-width:992px) {
+    .env-contents {
+        width: 70%;
+        padding: 40px;
+        border-radius: 20px;
+        margin: auto;
+        margin: 33px 15%;
+        background: rgb(0 0 0 / 6%);
+        box-shadow: 0 8px 32px 0 rgb(31 38 135 / 0%);
+        backdrop-filter: blur(5px);
+        -webkit-backdrop-filter: blur(5px);
+        border-radius: 30px;
+        border: 1px solid rgb(255 255 255 / 78%);
+    }
+    .envoirementabout h2 {
+        margin-top: 30px;
+    }
+    .commitment-card{
+        margin: 10px 0;
+    }
+    .optmization-box{
+        margin: 10px 0;
+    } 
+    .EnvHeader{
+        left: 44px;
+    }
+    .EnvHeader h1 {
+        font-family: 'dion';
+        color: #fff;
+        font-size: 30px;
+    }
+    
+}
+@media (max-width:520px) {
+.env-contents{
+    width: 90%;
+    margin: 30px 5%;
+}
+.envoirementabout h2{
+    font-size: 30px;
+}
+.envoirementabout h3 {
+    font-size: 20px;
+}
+.envoirementabout p{
+    font-size: 16px;
+    font-family: inter;
+    margin: 20px 0;
+}
+.envoirementabout img {
+    height: 285px;
+}
+.footer .row{
+    overflow: hidden;
+    text-align: left;
+    padding-right: 20px;
+}
+.passports p {
+    font-size: 14px;
+}
+.footer p{
+    padding: 0;
+}
+.env-banner img {
+    height: 100% !important;
+    width: 100% !important;
+    object-fit: contain !important;
+}
+.SUSTAINABILITY h2 {
+    font-family: dion;
+    letter-spacing: 1.6px !important;
+    font-size: 30px !important;
+}
+.envoirementabout img {
+    height: 244px;
+    width: 100%;
+    object-fit: cover;
+}
+.blog-banner .banner-text-container {
+    position: relative;
+    left: 30%;
+    bottom: 68px;
+    border-radius: 13px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    width: 120px;
+    padding: 5px;
+}
+.blog-details .blog-box {
+    margin: 20px 7px !important;
+}
+.certification-box p {
+    margin: 0 15px;
+    font-family: 'dion';
+    font-size: 10px;
+    color: #000;
+    letter-spacing: 1.5px;
+}
+.certificate-box h1, .companies h2{
+    font-size: 30px;
+}
+.EnvHeader {
+    left: 17px;
+    top: 40px;
+    padding: 3px;
+    border-radius: 6px;
+}
+.EnvHeader h1 {
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+.envoirementabout{
+    padding: 10px 0;
+}
+.strategy .row{
+    padding: 0 !important;
+}
+.commitment-card img {
+    height: 55px;
+    margin: 10px 0;
+}
+.commitment-card h3 {
+    font-size: 15px;
+    padding: 0 0px 10px;
+    margin: 0px 10px;
+    line-height: 19px;
+}
+.commitment-card p {
+    padding: 0 0px;
+    font-size: 13px;
+    font-family: 'LightInter';
+    line-height: 17px !important;
+}
+.commitment-card{
+    height: 290px;
+}
+}
+
+/* new env design */
+.env-banner img{
+    height: 350px;
+    width: 100%;
+    object-fit: cover;
+}
+.SUSTAINABILITY{
+    padding: 20px 0;
+}
+.SUSTAINABILITY h2{
+    font-family: dion;
+    letter-spacing: 1.6px;
+    font-size: 35px;
+}
+.strategy-heading{
+    font-family: dion;
+}
+
+/* privacy policy */
+
+.privacy-policy {
+    padding: 30px 0;
+}
+
+.privacy-policy h1 , .privacy-policy h2 , .privacy-policy h3{
+    font-family: dion;
+    font-size: 25px;
+    letter-spacing: 1px;
+
+}
+.privacy-policy h2 {
+    font-size: 20px;
+    letter-spacing: 1px;
+
+
+}
+.privacy-policy h3 {
+    font-size: 16px;
+
+}
+.privacy-policy p, .privacy-policy p {
+    font-family: LightInter;
+    font-size: 16px;
+    letter-spacing: 1px;
+}

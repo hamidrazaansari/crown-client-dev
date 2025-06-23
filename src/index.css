@@ -1,0 +1,49 @@
+body{
+  margin: 0;
+  padding: 0;
+  overflow-X : hidden;
+  scroll-behavior: smooth;
+}
+a{
+  text-decoration: none !important;
+}
+@font-face {
+  font-family: JuliusSansOne;
+  src: url(./assets/fonts/JuliusSansOne-Regular.ttf);
+}
+@font-face {
+  font-family: inter;
+  src: url(./assets/fonts/Kanit-Regular.ttf);
+}
+@font-face {
+  font-family: LightInter;
+  src: url(./assets/fonts/Kanit-Light.ttf);
+}
+@font-face {
+  font-family: Kanit;
+  src: url(./assets/fonts/Kanit-Regular.ttf);
+}
+@font-face {
+  font-family: KanitMedium;
+  src: url(./assets/fonts/Kanit-Medium.ttf);
+}
+@font-face {
+  font-family: asliInter;
+  src: url(./assets/fonts/Inter_18pt-Regular.ttf);
+}
+@font-face {
+  font-family: dion;
+  src: url(./assets/fonts/dionasans-bold.otf);
+}
+@font-face {
+  font-family: dionlight;
+  src: url(./assets/fonts/dionasans-light.otf);
+}
+@font-face {
+  font-family: dionMedium;
+  src: url(./assets/fonts/dionasans-medium.otf);
+}
+@font-face {
+  font-family: Nunito;
+  src: url(./assets/fonts/NunitoSans-VariableFont_YTLC\,opsz\,wdth\,wght.ttf);
+}

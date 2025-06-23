@@ -1,0 +1,253 @@
+/* .spotlight{
+    padding: 40px 0;
+    background-color: #ffff;
+}
+.spotlight h2{
+    font-size: 35px;
+    color: #000;
+    font-family:JuliusSansOne ;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.spotlight .para{
+    width: 37%;
+    margin: 0 auto;
+    color: #000000b5;
+    font-size: 10px;
+    text-align: center;
+}
+.spotlight .category{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+}
+.spotlight .category button{
+    border: 1px solid #88838373;
+    background: transparent;
+    margin: 0 10px;
+    width: 220px;
+    font-size: 15px;
+    text-align: center;
+    height: 40px;
+    font-family: 'inter';
+    border-radius: 4px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.spotlight .category .active{
+    background-color: #F8E3B8;
+    color: #000;
+}
+.mainSp{
+    width: 100%;
+    margin: 10px auto;
+}
+.mainSp img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+.spotcontent {
+    position: absolute;
+    right: 27px;
+    top: 136px;
+    width: 40%;
+}
+.spotcontent h3{
+    font-size: 65px;
+    font-family: 'inter';
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 0px;
+    text-align: center;
+}
+.spotcontent ul{
+    display: flex;
+}
+.spotcontent ul li{
+    margin: 0px 14px;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-family: 'inter';
+    font-weight: 600;
+}
+.spotlight ul li::marker{
+    color: #9C6B5B !important;
+    background-color: #9C6B5B !important;
+}
+.spotcontent p{
+    font-weight: bold;
+    font-family: 'inter';
+    letter-spacing: 2px;
+    text-align: center;
+    text-wrap: wrap;
+}
+
+@media (max-width:992px) {
+    .spotlight .category button{
+        width: 155px;
+    } 
+    .spotlight .para {
+        width: 59%;
+    }
+}
+@media (max-width:767px) {
+    .spotlight h2 {
+        font-size: 28px;
+    }
+    .spotlight .para {
+        width: 78%;
+        font-size: 9px;
+    }
+    .spotlight .category button {
+        margin: 0 10px;
+        width: 100px;
+        font-size: 11px;
+        text-align: center;
+        height: 31px;
+    }
+}
+@media (max-width:500px) {
+    .spotlight .category button {
+        margin: 0 4px;
+        width: 63px;
+        font-size: 8px;
+        text-align: center;
+        height: 20px;
+    }
+} */
+ /* 🔹 General Styles */
+.spotlight {
+  position: relative;
+  z-index: 5;
+  background-color: #000;
+  padding: 20px 0 30px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.spotlightheader {
+  text-align: center;
+  padding: 20px 0;
+}
+
+.spotlightheader h2 {
+  font-size: 40px;
+  font-family: 'dion';
+  color: #fff;
+  text-align: center;
+  margin: 0;
+  letter-spacing: 1px;
+  position: relative;
+}
+
+/* 🔹 Banner Scrolling Section */
+.banner-container {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+}
+
+.scrolling-banner {
+  display: flex;
+  width: max-content;
+  gap: 20px;
+}
+
+.banner-item {
+  flex: 0 0 auto;
+  max-width: 1450px;
+  width: 100%;
+  height: 430px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.banner-item img {
+  width: 100%;
+  max-width: 100%;
+  height: 500px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.spotlight h3 {
+  color: #E69B00;
+  position: relative;
+  bottom: 0px;
+  font-family: dion;
+  font-weight: 700;
+  font-size: 40px;
+  letter-spacing: 1px;
+}
+
+/* 🔹 Responsive Adjustments */
+@media screen and (max-width: 1200px) {
+  .spotlightheader h2 {
+    font-size: 35px;
+  }
+  .banner-item {
+    height: 400px;
+  }
+  .banner-item img {
+    height: 450px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .spotlightheader h2 {
+    font-size: 32px;
+  }
+  .banner-item {
+    height: 350px;
+    padding-bottom: 20px;
+  }
+  .banner-item img {
+    height: 400px;
+  }
+  .spotlight h3{
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .spotlightheader h2 {
+    font-size: 28px;
+  }
+  .banner-item {
+    height: 400px;
+  }
+  .banner-item img {
+    height: 350px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .spotlightheader h2 {
+    font-size: 24px;
+  }
+  .banner-container {
+    height: 60vh;
+  }
+  .banner-item {
+    height: 540px !important;
+    width: 400px;
+
+  }
+  .banner-item img {
+    height: 560px !important;
+    width: 100% !important;
+    margin-top: 40px !important;
+}
+  .scrolling-banner {
+    gap: 10px;
+  }
+
+}

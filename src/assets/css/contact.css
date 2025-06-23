@@ -1,0 +1,231 @@
+.contact-us h1{
+    font-family: 'dion';
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 45px;
+}
+.contact-us{
+    padding-bottom: 40px;
+}
+.contact-us p{
+    font-family: 'Inter';
+    color: #00000094;
+    font-size: 17px;
+    margin-bottom: 30px;
+}
+.contact-box{
+    margin: 40px;
+    box-shadow: 1px 1px 7px #a2a2a270;
+    padding: 45px 60px;
+    border: 1px solid #d2d2d2;
+    position: relative;
+    height: 600px;
+}
+.contact-box img{
+    position: absolute;
+    height: 85%;
+    top: 60px;
+    left: 41px;
+}
+.contact-info{
+    position: absolute;
+    top: 80px;
+    z-index: 2;
+    color: #fff;
+    width: 25%;
+
+}
+.contact-info p , .contact-info strong {
+    color: #fff;
+    margin: 20px 10px;
+    margin-right: 0px;
+    font-size: 13px;
+}
+.contact-info strong{
+    color: #FFBA3A;
+    margin-top: 20px !important;
+}
+.add-para{
+    font-family: 'LightInter';
+    margin: 0 !important;
+    margin-left: 50px !important;
+}
+.contact-info h2{
+    margin: 0 10px 10px;
+    font-size: 20px;
+    font-family: 'Inter';
+    font-weight: 700;
+}
+.contact-info p{
+    font-size: 14px !important;
+
+}
+.add-para{
+    margin-bottom: 10px !important;
+}
+.contact-box .contact-info  img{
+    position: unset;
+    height: 20px;
+    margin-right: 20px;
+}
+.socalLinks {
+    position: absolute;
+    bottom: 59px;
+    left: 68px;
+}
+.socalLinks img {
+    height: 25px;
+    width: 25px;
+    position: unset;
+    margin-right: 16px;
+}
+.contactForm input{
+    border: none !important;
+    border-bottom: 1px solid #0000007a !important;
+    padding: 5px 0px;
+    margin-bottom: 20px;
+}
+.country-drop .select-search-container:not(.select-search-is-disabled) .select-search-input:hover  {
+    border: none !important;
+    border-bottom: 1px solid #0000007a !important;
+}
+.contactForm input:focus{
+    outline: none;
+}
+.contactForm{
+    padding: 30px;
+}
+.contactForm .select-search-value:hover{
+    border:none !important;
+}
+.contactForm label{
+    font-family: 'asliInter';
+    color: #0000006b;
+}
+.input-field input:focus ~  label{
+    color: #000;
+}
+
+.contactForm .select-search-container:not(.select-search-is-disabled).select-search-has-focus .select-search-input, .select-search-container:not(.select-search-is-disabled) .select-search-input:hover{
+    border-color: #0000007a !important ;
+    outline: none !important;
+    border-bottom: 1px solid #0000007a !important;
+
+}
+.submit{
+    border: none;
+    background: #E69B00;
+    padding: 10px 40px;
+    color: #fff;
+    font-family: 'Inter';
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    float: inline-end;
+    margin-right: 78px;
+    border-radius: 4px;
+}
+
+@media (max-width:1400px) {
+    .contact-box {
+        margin: 40px 0;
+        padding: 45px 60px;
+        height: 632px;
+    }
+    .contact-info{
+        width: 30%;
+    }
+
+}
+@media (max-width:1200px) {
+    .contact-box {
+        margin: 40px 0;
+        box-shadow: 1px 1px 7px #a2a2a270;
+        padding: 45px 60px;
+        border: 1px solid #d2d2d2;
+        position: relative;
+        padding-right: 11px;
+        height: 632px;
+    }
+    .contact-info h2 {
+        margin: 0 10px;
+        font-family: 'Inter';
+        font-weight: 700;
+    }
+    .contactForm {
+        padding: 30px;
+        width: 85%;
+        margin-left: 15%;
+    }
+    .submit {
+        margin-right: 30px;
+    }
+}
+
+@media (max-width:992px) {
+    .contact-us h1 {
+        font-size: 30px;
+    }
+    .contact-box {
+        margin: 0px;
+        box-shadow: 1px 1px 7px #a2a2a270;
+        padding: 0px 20px;
+        border: 1px solid #d2d2d2;
+        position: relative;
+        height: 1139px;
+    }
+    .contact-us {
+        padding-bottom: 40px;
+        height: 1275px;
+    }
+    .contact-box img {
+        position: absolute;
+        height: 50%;
+        top: unset;
+        left: 20px;
+        top: 45px;
+        width: 89%;
+    }
+    .contactForm{
+            position: absolute;
+    bottom: 0;
+    left: 0;
+    padding-top: 0 !important;
+    }
+    .contact-info{
+        width: 100%;
+    }
+    .contact-box .contact-info img {
+        position: unset;
+        height: 20px;
+        margin-right: 20px;
+        width: 20px;
+    }
+    .contact-us p {
+        font-family: 'Inter';
+        font-size: 13px;
+        margin-bottom: 30px;
+        width: 71%;
+    }
+    .contact-info {
+        width: 90%;
+        padding: 10px;
+    }
+    .submit{
+        margin-right: 100px;
+
+    }
+    .contactForm small{
+        font-size: 9px !important;
+    }
+    .select-search-option, .select-search-not-found{
+        font-size: 13px !important;
+    }
+
+    .contactForm {
+        padding: 30px;
+        width: 100%;
+        margin-left: 0%;
+    }
+
+    
+}

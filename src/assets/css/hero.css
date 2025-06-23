@@ -1,0 +1,296 @@
+
+.banner , .content{
+    position: relative;
+}
+.banner img{
+    height: 90vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+.banner::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgb(0 0 0 / 62%);
+    z-index: 1;
+}
+.texts {
+    position: absolute;
+    top: 45%;
+    z-index: 5;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+    left: 20%;
+}
+.texts h2 {
+    font-size: 43px;
+    font-family: JuliusSansOne;
+    text-transform: uppercase;
+    letter-spacing: 1.7px;
+    text-align: center;
+}
+.texts p {
+    font-family: LightInter;
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: capitalize;
+    letter-spacing: 1.5px;
+}
+.texts button{
+    border: 2px solid #E79D07;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 14px;
+    background: transparent;
+    padding: 10px 20px;
+    font-family: KanitMedium;
+    letter-spacing: 2px;
+}
+.banner-section .slick-dots {
+    position: absolute;
+    bottom: 25px !important;
+    display: block;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: end !important;
+    right: 121px;
+}
+.banner-section .slick-dots li {
+    position: relative;
+    display: inline-block;
+    width: 30px !important;
+    height: 20px;
+    margin: 0 5px;
+    padding: 0;
+    cursor: pointer;
+}
+.banner-section .slick-dots li button{
+    width: 100% !important;
+    border: 1px solid #ffff !important;
+    height: 5px !important;
+    padding: 0 !important;
+    border-radius: 0 !important;
+}
+.banner-section .slick-dots .slick-active button{
+    background-color: #fff !important;
+}
+.banner-section .slick-dots li button::before{
+    font-size: 0 !important;
+    line-height: 0 !important;
+}
+.thank-you-wrapper{
+    top: 90px !important;
+}
+
+
+.crown-modal .form{
+    background-color: #FFFFFF;
+    width: 100%;
+    /* margin: auto; */
+    padding: 40px;
+    border-radius: 0px;
+    box-shadow: 1px 1px 10px #777777;
+    /* height: 100%; */
+    margin-left: 0px;
+}
+.crown-modal .form input{
+    height: 45px !important;
+    margin-bottom: 4px ;
+}
+.crown-modal .form .stdropdown-container {
+    margin: 5px 0 !important;
+}
+.crown-modal .modal-content{
+    position: relative;
+    height: 100% !important;
+    background-color: #fff !important;
+}
+.crown-modal .modal-body{
+    padding: 0 !important;
+}
+.crown-modal .modal-header{
+    border-bottom: 0 !important;
+    position: absolute;
+    right: -25px;
+    top: -15px;
+    height: 40px;
+    width: 40px;
+    background-color: #fff;
+    z-index: 5;
+    border: none !important;
+    padding: 0;
+    border-radius: 50%;
+    padding-right: 12px;
+}
+.crown-modal .modal-header .btn-close{
+    box-shadow: none !important;
+
+}
+.crown-modal .newslatterBg{
+position: relative;
+z-index: 2;
+}
+
+.crown-modal .newsLatterContent {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display: flex
+;
+    z-index: 5;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+    color: #000;
+    font-family: inter;
+    padding-bottom: 60px;
+}
+.crown-modal .newsLatterContent h2{
+    font-family: dion;
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.crown-modal .newsLatterContent h3{
+        font-size: 15px;
+    margin-bottom: 0;
+    color: #000000a3;
+}
+.crown-modal .newsLatterContent p{
+    font-size: 13px;
+    color: #000000a3;
+    letter-spacing: 1px;
+}
+.crown-modal .newsLatterContent .form-control{
+        box-shadow: none !important;
+        border: 1px solid #000;
+        width: 100%;
+}
+.crown-modal .newsLatterBtn{
+    border: none;
+    background: #E69B00;
+    width: 110px;
+    margin-left: 10px;
+    border-radius: 6px;
+    color: #fff;
+}
+@media (max-width:992px) {
+    .texts {
+        position: absolute;
+        top: 30%;
+    }
+
+    
+    .heroBanner img, .heroBanner video {
+        height: 45vh !important;
+    }
+    .thank-you-container .thank-you-wrapper .thank-you {
+        height: 45vh !important;
+    }
+    .thank-you-container .thank-you-wrapper {
+        width: 100%;
+        height: 45vh !important;
+    }
+     .scroll .pin-spacer{
+        height: 680px !important;
+        padding-bottom: 0 !important;
+    }
+    .about{
+        padding-top: 0 !important;
+    }
+    
+}
+@media (max-width:600px) {
+    .texts {
+        position: absolute;
+        top: 30%;
+        z-index: 5;
+        color: #fff;
+        width: 88%;
+        left: 4%;
+    }
+    .texts h2{
+        font-size: 32px;
+    }
+}
+.heroBanner {
+    position: relative;
+    z-index: 5;
+}
+.heroBanner img{
+    height: 90vh;
+    width: 100%;
+}
+
+@media (max-width:500px) {
+    .category-box {
+        min-width: 100px !important;
+        height: 250px !important;
+        margin: 10px !important;
+
+    }
+    .category-box h3 {
+        bottom: -62px !important;
+        font-size: 16px !important;
+    }
+    .category-box h4 {
+        font-size: 24px !important;
+        top: -61px !important;
+        left: 33px;
+    }
+    .category-box-active {
+        height: 250px;
+    }
+    .decorative-active {
+        background: url(/src/assets/image/interrior.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position-x: center;
+    }
+    .category-box-active h4 {
+        font-size: 20px !important;
+        top: -3px !important;
+    }
+    .category-box-active h3{
+        font-size: 14px !important;
+        top: 10px !important;
+        margin-bottom: 10px !important;
+        margin-left: 27px !important;
+    }
+    .exterior-active , .decorative-active  , .interior-active{
+        background-position: center !important;
+        background-size: cover !important;
+    }
+    .heroBanner img, .heroBanner video {
+        height: 40vh !important;
+    }
+    .thank-you-container .thank-you-wrapper .thank-you {
+        height: 40vh !important;
+    }
+    .thank-you-container .thank-you-wrapper {
+        width: 100%;
+        height: 40vh !important;
+    }
+     .scroll .pin-spacer{
+        height: 300px !important;
+        padding-bottom: 0 !important;
+    }
+    .about{
+        padding-top: 0 !important;
+    }
+
+}

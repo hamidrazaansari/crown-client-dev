@@ -1,0 +1,540 @@
+/* .Category{
+    background-color: #313131;
+    padding:40px 0;
+}
+.category-heading{
+    font-size: 35px;
+    color: #ffff;
+    font-family:JuliusSansOne ;
+    text-align: center;
+    text-transform: uppercase;
+}
+.category-box {
+    height: 420px;
+    width: 270px;
+    position: relative;
+    z-index: 3;
+    margin: 0 auto;
+}
+.category-box::before{
+    content: '';
+    position: absolute;
+    top: -15px;
+    left: -10px;
+    height: 100%;
+    width: 90%;
+    z-index: -1;
+    border: 1px solid #fff;
+}
+.category-box::after{
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(0deg, rgba(230,155,0,0.7204131652661064) 0%, rgba(255,255,255,0.1825980392156863) 44%);
+    top: 0;
+    left: 0;
+    z-index: 4;
+
+}
+
+.category-box img{
+    height: 100%;
+    width: 100%;
+}
+
+.box-1 p  , .box-2 p , .box-3 p{
+    position: absolute;
+    top: 137px;
+    left: -77px;
+    color: #ffffff;
+    transform: rotate(-90deg);
+    font-family: JuliusSansOne;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+}
+.box-2 p{
+    top: 120px !important;
+    left: -65px;
+}
+.box-3 p{
+    top: 100px !important;
+    left: -70px;
+}
+.explore-btn {
+    color: #fff;
+    border: 2px solid #fff;
+    padding: 5px 24px 3px;
+    position: absolute;
+    bottom: 30px;
+    display: block;
+    left: 41px;
+    z-index: 5;
+    background-color: #515151;
+    font-family: inter;
+    font-weight: 600;
+    font-size: 17px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+}
+.explore-btn svg {
+    font-size: 28px;
+    transform: rotate(-85deg);
+    margin-left: 4px;
+}
+.category-text {
+    margin: 20px auto;
+    margin-bottom: 0;
+
+}
+.number {
+    height: 55px;
+    width: 55px;
+    border-radius: 50%;
+    border: 2px solid #E69B00;
+    font-size: 26px;
+    font-family: JuliusSansOne;
+    color: #ffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+}
+.category-text h3 {
+    font-family: inter;
+    font-size: 27px;
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: 1.3px;
+    margin-bottom: 0;
+}
+.category-text p{
+    font-family: inter;
+    font-size: 14px;
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: 14px;
+}
+@media (max-width:992px) {
+    .category-box {
+        margin-top: 40px;
+    }
+        .category-box {
+    flex: 1;
+    min-width: 132px;
+    height: 402px;
+    background: #E7E7E7;
+    margin: 20px;
+    padding: 10px;
+    position: relative;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.5s linear;
+    overflow: hidden;
+}
+}
+@media (max-width:767px) {
+    .category-box {
+        height: 350px;
+        width: 216px;
+        position: relative;
+        z-index: 3;
+    }
+    .explore-btn {
+        font-size: 12px;
+    }
+    .explore-btn svg {
+        font-size: 23px;
+    }
+    .number {
+        height: 45px;
+        width: 45px;
+        font-size: 21px;
+    }
+    .category-text h3 {
+        font-size: 22px;
+    }
+    .category-text p {
+        font-size: 10px;
+        letter-spacing: 13px;
+    }
+} */
+.category {
+    padding: 40px 0;
+    background: #fff;
+}
+
+.category h2 {
+    font-family: dion;
+    font-size: 40px;
+    text-transform: uppercase;
+    margin: 10px 50px;
+}
+
+.category-box {
+    flex: 1;
+    min-width: 200px;
+    height: 500px;
+    background: #E7E7E7;
+    margin: 20px;
+    padding: 20px;
+    position: relative;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.5s linear;
+    overflow: hidden;
+}
+
+.category-box h3 {
+    position: relative;
+    bottom: -15px;
+    left: 0px;
+    text-align: center;
+    font-family: dion;
+    font-size: 35px;
+    transform: none;
+    color: #000;
+    transform: rotate(-90deg);
+    white-space: nowrap;
+    letter-spacing: 2px;
+}
+
+.category-box h4 {
+    font-family: 'dion';
+    font-size: 49px;
+    text-align: center;
+    color: #000;
+    position: absolute;
+    top: -192px;
+    left: 40px;
+}
+
+.category-box .category-btn {
+    display: none;
+}
+
+.category-box-active {
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    color: #fff;
+    padding: 100px;
+    font-family: dionlight;
+    margin: 20px;
+    border-radius: 10px;
+    flex: 3;
+    transition: transform 0.5s linear, flex 0.5s linear;
+    position: relative;
+    text-align: start;
+}
+
+.category-box-active .texts {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 5;
+    color: #fff;
+    display: block;
+    padding: 18px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0) 90%);
+    text-align: start;
+    transform: rotate(0deg);
+}
+
+.category-box-active h4 {
+    text-align: start;
+    font-family: dionMedium;
+    color: #fff;
+}
+.category-box-active .texts .category-btn {
+    border: none;
+    color: #000;
+    text-transform: uppercase;
+    font-size: 17px;
+    background: #fff;
+    padding: 13px 20px;
+    font-family: 'dion';
+    letter-spacing: 2px;
+    float: inline-end;
+    border-radius: 4px;
+    position: relative;
+    bottom: -183px;
+    display: block;
+}
+
+.category-box-active .texts p {
+    font-size: 10px;
+    font-family: 'LightInter';
+}
+
+.category-box-active h3 {
+    position: unset;
+    font-family: dionMedium;
+    text-align: start !important;
+    font-size: 26px;
+    transform: none;
+    margin-left: 41px;
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+.category-box-active .cat-heading{
+    position: absolute;
+    bottom: 0;
+}
+
+.category-box-active p {
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+
+.category-box-active img {
+    border-radius: 10px;
+    width: 100%;
+}
+
+/* Ensure only one category remains active */
+.category-box:not(.category-box-active) {
+    flex: 1;
+    opacity: 0.9; /* Dim inactive categories */
+    transition: opacity 0.3s ease-in-out;
+}
+
+/* Backgrounds for Active Categories */
+.decorative-active {
+    background: url(../image/Category/exterior-laminate.jpg);
+    background-size: cover;
+}
+
+.interior-active {
+    background: url(../image/Interior-compact.jpg);
+    background-size: cover;
+
+}
+
+.exterior-active {
+    background: url(../image/Category/decorative-laminate.jpg);
+    background-size: cover;
+
+}
+
+/* Product Banner Styling */
+.product-banner {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: auto;
+}
+
+.product-banners-container {
+    display: flex;
+    width: 200%; /* Adjust for the number of images */
+    position: absolute;
+}
+
+.product-banners-container img {
+    width: 50%; /* Adjust width based on image count */
+    flex-shrink: 0;
+}
+
+.content {
+    position: relative;
+    z-index: 2;
+    text-align: center;
+}
+.category-box-active h4 {
+    font-family: 'dion';
+    font-size: 30px;
+    text-align: center;
+    color: #fff;
+    position: absolute;
+    top: -3px;
+    left: -4px;
+}
+
+@media (max-width:992px) {
+    .category-box{
+        min-width: 150px !important;
+        height: 357px !important;
+        margin: 5px !important;
+      
+      }
+      .category-box h3 {
+        bottom: -90px !important;
+        font-size: 25px !important;
+      }
+      .category-box h4 {
+        font-family: 'dion';
+        font-size: 30px !important;
+        text-align: center;
+        color: #000;
+        position: absolute;
+        top: -94px !important;
+        left: 32px !important;
+      }
+      .category-box-active h3{
+        margin-left: 0 !important;
+        font-size: 15px !important;
+      }
+      .category-box-active .texts .category-btn {
+        font-size: 13px;
+        padding: 8px 20px;
+    }
+}
+@media (max-width:768px) {
+    .decorative-active , .interior-active , .exterior-active  {
+        background-size: cover;
+    }
+    .category h2 {
+        font-size: 30px;
+        margin: 10px 0px;
+    }
+    .category-box {
+        min-width: 110px !important;
+        height: 330px !important;
+        margin: 5px !important;
+    }
+    .category-box h3 {
+        bottom: -62px !important;
+        font-size: 22px !important;
+    }
+    .category-box-active h3 {
+        margin-left: 23px !important;
+        font-size: 15px !important;
+        margin-bottom: 52px;
+        text-align: center !important;
+    }
+    .category-box-active .texts .category-btn {
+        font-size: 13px;
+        padding: 5px 16px;
+        left: -72px;
+        bottom: -173px;
+    }
+
+}
+
+@media (max-width:500px) {
+    .category-box {
+        min-width: 100px !important;
+        height: 250px !important;
+        margin: 5px !important;
+    }
+    .category-box {
+        min-width: 73px !important;
+        height: 357px !important;
+        /* padding: 0 !important; */
+        margin: 5px !important;
+    }
+    .category h2 {
+        font-family: dion;
+        font-size: 30px !important;
+        text-transform: uppercase;
+        margin: 10px 50px;
+        text-align: center;
+    }
+    .gallery-heading {
+        font-size: 30px !important;
+        margin-bottom: 20px;
+    }
+    .blog h3 {
+        font-family: dion;
+        font-size: 30px !important;
+    }
+    .blog .heading-text{
+        width: 100% !important;
+    }
+    .category-box h3 {
+        bottom: -96px !important;
+        font-size: 21px !important;
+    }
+    .category-box-active h3 {
+        font-size: 16px !important;
+        margin-left: 20px !important;
+        margin-bottom: 50px !important;
+    }
+    .category-box-active .texts .category-btn {
+        font-size: 13px;
+        padding: 4px 9px;
+        bottom: -194px;
+        position: relative;
+        z-index: 5;
+        left: -43px;
+    }
+    .category-box h4 {
+        font-family: 'dion';
+        font-size: 25px !important;
+        top: -77px !important;
+        left: 18px !important;
+    }
+    .highRegImg span{
+        font-size: 10px !important;
+    }
+    .category-box-active h4 {
+        font-family: 'dion';
+        font-size: 18px !important;
+        top: -2px !important;
+        left: -5px !important;
+        color: #fff;
+    }
+    .about-content {
+        width: 100%;
+        padding: 0 25px;
+    }
+
+}
+
+@media (max-width:400px) {
+    .category-box {
+        min-width: 62px !important;
+        height: 250px !important;
+        margin: 5px !important;
+        padding: 0;
+    }
+    .category-box h4 {
+        font-size: 17px !important;
+        top: -61px !important;
+        left: 19px;
+    }
+
+    .category-box h3 {
+        bottom: -61px !important;
+        font-size: 15px !important;
+    }
+    .category-box-active h3{
+        font-size: 13px !important;
+        margin-left: 0px !important;
+        margin-bottom: 46px !important;
+        
+    }
+    .category-box-active .texts .category-btn {
+        font-size: 11px;
+        padding: 5px 9px;
+        bottom: -122px;
+        text-align: center;
+        left: -8px;
+    }
+    .category-box h4 {
+        font-family: 'dion';
+        font-size: 15px !important;
+        top: -61px !important;
+        left: 20px !important;
+    }
+    .highRegImg span{
+        font-size: 10px !important;
+    }
+    .category-box-active h4{
+        font-family: 'dion';
+        font-size: 14px !important;
+        top: -2px !important;
+        left: -6px !important;
+        color: #fff;
+    }
+
+    .category-box h3 {
+        bottom: -59px !important;
+        font-size: 12px !important;
+    }
+
+}

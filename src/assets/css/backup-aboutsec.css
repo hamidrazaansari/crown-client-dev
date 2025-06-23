@@ -1,0 +1,348 @@
+.about{
+    background-color: #F5F5F5;
+    padding: 40px 0;
+}
+.about-vid-box{
+    height: 500px;
+    width: 440px;
+    position: relative;
+}
+.about-vid-box img{
+    height: 100%;
+    width: 100%;
+}
+.Space-box{
+    height: 500px;
+    width: 500px;
+    position: relative;
+}
+.Space-box img{
+    height: 100%;
+    width: 100%;
+}
+.playIcon {
+    position: absolute;
+    left: 43%;
+    top: 45%;
+    height: 50px !important;
+    width: 50px !important;
+}
+.about-content{
+    width: 80%;
+}
+.about .about-content h2{
+    font-size: 35px;
+    font-family: JuliusSansOne;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    margin-bottom: 25px;
+    color: #333333;
+}
+.space-heading{
+    font-size: 35px;
+    font-family: inter !important;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    margin-bottom: 25px;
+    color: #333333;
+}
+.about-content h3{
+    font-size: 25px;
+    font-family: JuliusSansOne;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    margin-bottom: 20px;
+    color: #333333;
+}
+.about-content p {
+    font-size: 13px;
+    font-family: inter;
+    color: rgb(59 59 59 / 61%);
+    line-height: 21px;
+    padding-right: 22px;
+}
+.about-content button {
+    border: 2px solid #E79D07;
+    color: #232323;
+    text-transform: uppercase;
+    font-size: 14px;
+    background: transparent;
+    padding: 10px 20px;
+    font-family: 'Kanit';
+    letter-spacing: 1px;
+    margin-top: 20px;
+}
+.line{
+    background-color: #e79c0782;
+    height: 1px;
+    width: 50%;
+    margin-bottom: 30px;
+
+}
+.about .custom-video {
+    width: 100%;
+    height: 100%;
+    max-height: 100%;
+    display: block;
+}
+
+/* ********************About us ********************* */
+
+.About-us .image-box{
+    height: 400px;
+    max-width: 590px;
+}
+.About-us .image-box img{
+    height: 100%;
+    width: 100%;
+}
+.About-us .content-box h2{
+    font-family: JuliusSansOne;
+}
+.About-us .content-box p{
+    font-family: inter;
+    font-size: 14px;
+    color: #00000054;
+}
+.About-us .content-box {
+    padding: 20px;
+}
+.About-us .content-box .line{
+        background-color: #e79c0782;
+        height: 1px;
+        width: 30%;
+        margin-bottom: 20px;
+        margin-top: 15px;
+
+}
+.why{
+    background-color: #F5F5F5;
+    padding: 40px 0;
+    margin: 40px 0;
+    position: relative;
+}
+.why::before{
+position: absolute;
+content: '';
+height: 100%;
+width: 100%;
+top: 0;
+z-index: 1;
+background:url(../image/why-bg.png);
+}
+.why h2 , .globle h2{
+    font-family: JuliusSansOne;
+    text-align: center;
+    margin: 10px 0;
+    font-size: 35px;
+    letter-spacing: 2px;
+    margin-bottom: 30px;
+}
+.why .image-box{
+    height: 100px;
+    width: 100px;
+    background-color: #FFECC4;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.why .image-box img{
+    height: 60%;
+    width: 60%;
+}
+.why .points-box{
+    background-color: #fff;
+    position: relative;
+    z-index: 2;
+    padding: 20px;
+    margin: 10px;
+    width: 70%;
+    
+}
+.why .points-box h3{
+    font-family: 'inter';
+    font-size: 17px;
+    margin: 10px 0;
+}
+.why .points-box span{
+    position: absolute;
+    right: 21px;
+    color: #00000073;
+    font-size: 19px;
+}
+.why .points-box p{
+    color: #00000059;
+    margin-bottom: 10px;
+    font-family: 'Kanit';
+}
+.img-container{
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+}
+.img-container img{
+    height: 100%;
+}
+@media (max-width:992px) {
+    .about-content {
+        width: 80%;
+        margin: 0 40px;
+        margin-top: 28px;
+    }
+    .Space-box {
+        height: 435px;
+        position: relative;
+        margin: 34px;
+        width: 500px;
+    }
+}
+@media (max-width:767px) {
+    .Space-box {
+        height: 400px;
+        position: relative;
+        margin: 34px;
+        width: 416px;
+    }
+
+}
+@media (max-width:500px) {
+    .about-vid-box {
+        height: 438px;
+        width: 360px;
+        position: relative;
+    }
+    .Space-box {
+        height: 330px;
+        position: relative;
+        margin: 34px;
+        width: 325px;
+    }
+
+
+}
+@media (max-width:400px) {
+    .about-vid-box {
+        height: 368px;
+        width: 300px;
+        position: relative;
+    }
+    .about-content{
+        margin: 20px;
+    }
+    .Space-box {
+        height: 290px;
+        position: relative;
+        margin: 10px;
+        width: 279px;
+    }
+}
+
+
+  /* App Navbar Starts Here */
+  .appBar {
+    position: relative;
+    width: 100%;
+    min-height: 64px;
+    display: flex;
+    z-index: 10;
+  }
+  .appBar .navbarContainer {
+    position: relative;
+    width: 100%;
+    z-index: 3;
+  }
+  
+  .appBar .navbarContainer .navbarWrapper {
+    height: 100%;
+  }
+  
+  .appBar .navbarContainer .navbarWrapper .mainNavbar {
+    display: flex;
+    height: inherit;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+  }
+  .appBar .navbarContainer .navbarWrapper .mainNavbar a {
+    padding: 20px;
+    text-decoration: none;
+    color: #000;
+  }
+  .appBar .navbarContainer .navbarWrapper .mainNavbar.is-2 a {
+    color: #fff;
+  }
+  
+  /* App Navbar Ends Here */
+  
+  .thank-you-container {
+    position: relative;
+    width: 100%;
+    height: 90vh;
+    z-index: 3;
+  }
+  .thank-you-container .thank-you-wrapper {
+    width: 100%;
+    height: 90vh;
+  }
+  .thank-you-container .thank-you-wrapper .thank-you {
+    position: relative;
+    display: flex;
+    /* width: 100vw; */
+    height: 90vh;
+    background-color: #fff;
+    color: #000;
+    z-index: 1;
+  }
+  .thank-you-container .thank-you-wrapper .thank-you.is-2,
+  .appBar .navbarContainer .navbarWrapper .mainNavbar.is-2 {
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    right: 0%;
+    bottom: 0%;
+    z-index: 3;
+    background-color: #000;
+    color: #fff;
+    height: 100%;
+  }
+  .thank-you-container .thank-you-wrapper .thank-you .content {
+    display: flex;
+    width: 100%;
+    /* height: 100%; */
+    justify-content: center;
+    align-items: center;
+  }
+  .thank-you-container .thank-you-wrapper .thank-you p {
+    font-size: 16rem;
+    line-height: 0.9;
+    font-weight: 700;
+    letter-spacing: 2px;
+    font-family: dion;
+  }
+  
+  .lastContainer {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 5rem;
+    background-color: #eee;
+  }
+  .thank-you-container::before{
+    position: absolute;
+    content: '';
+    background: url(../image/homeCreative.png);
+    height: 200px;
+    width: 170px;
+    top: 65%;
+    left: 21%;
+    z-index: 4;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+  }
+  

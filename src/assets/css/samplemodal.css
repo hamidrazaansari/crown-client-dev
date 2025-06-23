@@ -1,0 +1,220 @@
+.Sample-modal {
+    background-color: #fff !important;
+    position: absolute;
+    top: 60px;
+    right: -90px;
+    height: 310px;
+    max-width: 800px;
+    width: 100%;
+}
+
+.Sample-modal .img-box {
+    /* background: #F3F3F3; */
+    flex-direction: column;
+    /* align-items: center; */
+    /* justify-content: center; */
+    padding: 0px;
+    margin: 36px 30px;
+    height: 230px;
+    width: 195px;
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+.Sample-modal .img-box img {
+    height: 100%;
+    object-fit: cover;
+    width: 100%;
+}
+.Sample-modal .content {
+    padding: 52px 30px 0;
+    text-align: left;
+}
+
+.Sample-modal .content h3 {
+    background: #f3f3f3;
+    color: #000;
+    font-size: 18px;
+    font-family: 'Kanit';
+    letter-spacing: 8px;
+    padding: 5px 30px;
+    letter-spacing: 7px;
+}
+.Sample-modal .content h2{
+    font-family: 'Kanit';
+    font-size: 20px;
+    margin: 15px 0;
+}
+.Sample-modal.content p{
+    font-family: 'Kanit';
+    font-size: 13px;
+    color: #3b3b3b57;
+}
+.Sample-modal .content select{
+    width: 100px;
+}
+.Sample-modal .content button {
+    display: flex;
+    border: none;
+    background: #E69B00;
+    margin: 21px 0;
+    width: 185px;
+    height: 40px;
+    align-items: center;
+    padding: 0;
+    font-family: Kanit;
+    color: #000;
+    border-radius: 5px;
+    padding: 0 21px;
+}
+.Sample-modal .content button span{
+    background-color: #E69B00;
+    color: #000;
+    height: 100%;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Sample-modal .content button span svg{
+    font-size: 23px;
+}
+
+
+/* signIn modal style */
+.Signin-modal{
+    background-color: #ffff !important;
+    height: 90vh;
+    width: 700px;
+}
+.modal-title {
+    font-family: kanit !important;
+    margin-bottom: 0;
+    font-size: 19px !important;
+    line-height: var(--bs-modal-title-line-height);
+}
+.Signin-modal .sign-in{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.sign-in h2{
+    font-size: 36px;
+}
+.google-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #0000008c;
+    padding: 12px 20px;
+    width: 51%;
+    margin: 14px 0;
+    border-radius: 36px;
+    margin-bottom: 20px;
+}
+.google-box p{
+    margin: 0;
+    font-family: kanit !important;
+    margin-left: 5px;
+    font-size: 14px;
+    color: #000000;
+}
+.or{
+    display: flex;
+    align-self: center;
+    justify-content: center;
+}
+.or span {
+    height: 1px;
+    width: 60px;
+    background-color: #b9b3b3;
+    margin: 12px 13px;
+}
+.or p{
+    margin: 0;
+    font-family: kanit !important;
+
+}
+.input{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+    width: 51%;
+}
+.input label{
+    font-family: kanit ;
+}
+.input label span{
+    color: #E31B2C;
+}
+.input input{
+    height: 45px;
+    border-radius: 7px;
+    border: 1px solid #8d8d8d;
+}
+.others{
+    width: 52%;
+}
+.others label{
+    float: inline-end;
+    font-family: kanit ;
+    font-size: 13px;
+}
+.others p{
+    display: inline-block;
+    font-size: 11px;
+    text-align: center;
+    margin: 12px 0;
+    font-family: Kanit;
+    line-height: 15px;
+    color: #00000070;
+}
+.others p a{
+    color: #000000;
+    text-decoration: underline !important;
+    font-size: 11px;
+}
+.others button{
+    display: block;
+    width: 100%;
+    background: #E69B00;
+    border: none;
+    color: #fff;
+    font-family: kanit;
+    letter-spacing: 1px;
+    padding: 9px;
+    border-radius: 24px;
+    margin: 8px 0;
+}
+.others h5{
+    font-size: 14px;
+    text-align: center;
+    margin: 15px 0;
+    font-family: Kanit;
+}
+.others h5 span{
+    color: #E31B2C;
+}
+.sample-modal-close{
+    position: absolute !important;
+    top: 60px !important;
+    z-index: 3 !important;
+    right: -86px !important;
+    background: transparent !important;
+    color: #000 !important;
+    font-size: 16px !important;
+}
+
+@media (max-width:768px) {
+    .sample-modal-close {
+        position: absolute !important;
+        top: 97px !important;
+        z-index: 3 !important;
+        right: 0 !important;
+        background: transparent !important;
+        color: #000 !important;
+        font-size: 14px !important;
+    } 
+}

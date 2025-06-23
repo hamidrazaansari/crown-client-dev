@@ -1,0 +1,169 @@
+.certificate img{
+    height: 425px;
+    border: 10px solid #FEEDCA;
+    margin: 30px 0 60px;
+}
+.companies{
+    padding: 50px  0;
+}
+
+.companies{
+    margin: -30px 0 50px;
+}
+.company-box{
+    margin: auto;
+    padding: 40px 0;
+    width: 90%;
+}
+.company-logo {
+    margin: 11px 0;
+    border: 1px solid #000;
+    padding: 20px 20px;
+    height: 220px;
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.company-logo img {
+    width: 80%;
+    height: 80%;
+
+    object-fit: contain;
+}
+
+.certification-box {
+    border: 1px solid #00000069;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    margin: 20px 0;
+    height: 60px;
+}
+.certification-box p {
+    margin: 0 15px;
+    font-family: 'Inter';
+    font-size: 17px;
+    color: #000000be;
+    letter-spacing: 2px;
+}
+.certification-box button{
+    height: 100%;
+    width: 121px;
+    border: none;
+    background: #000;
+    color: #fff;
+    font-family: 'dion';
+}
+.certificate-box h1 , .companies h2{
+    font-family: dion;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 32px;
+    margin-bottom: 40px;
+}
+.companies h2{
+    margin-left: 35px;
+}
+
+
+
+.certificate-modal .certificate-cancel-btn svg{
+    height: 20px;
+    width: 20px;
+}
+.certificate-modal .certificate-cancel-btn{
+        position: relative;
+        left: 375px;
+        border: none;
+        background: #fff;
+        padding: 5px 8px 6px;
+        top: 22px;
+        z-index: 99998;
+        border-radius: 50%;
+}
+.certificate-btn{
+    background-color:  #ededed !important;
+}
+.certificate-btn:hover{
+    background-color: #e69b00 !important;
+}
+/* new design  */
+
+.certification-box p {
+    margin: 0 15px;
+    font-size: 17px;
+    color: #000000be;
+    letter-spacing: 2px !important;
+}
+.certification-box {
+    background-color: #FFFCF6;
+    border: none;
+    box-shadow: 0px 2px 3px #a19b9b8f;
+    width: 100%;
+    margin: 0;
+    margin-bottom: 10px;
+    border-radius: 4px;
+}
+.certificate-btn {
+    border: none;
+    background-color: #FFFCF6;
+    height: 62px;
+    width: 35%;
+    margin: 0 10px;
+    box-shadow: 0px 2px 3px #a19b9b8f;
+    border-radius: 4px;
+    font-family: inter;
+    color: #000000be;
+    margin-bottom: 10px;
+
+}
+.certificate-btn img{
+    height: 19px;
+    margin-left: 10px;
+}
+
+
+.certificate-modal .certificate-cancel-btn {
+    position: relative;
+    left: 465px;
+}
+
+.company-logo {
+    margin: 11px 0;
+    border: 1px solid #000;
+    padding: 20px 20px;
+    height: 220px;
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    box-shadow: 0px 2px 6px #00000014;
+    border-radius: 5px;
+}
+
+
+
+@media (max-width:500px) {
+    .company-logo img {
+        height: 76px;
+        width: 88px;
+    }
+    .certification-box p {
+        margin: 0 15px;
+        font-size: 17px;
+        color: #000;
+        letter-spacing: 1px;
+    }
+    .certification-box{
+        width: 100% !important;
+    }
+    .certificate-btn{
+        font-size: 12px !important;
+        border: 1px solid #e69b00 !important;
+
+    }
+}
+

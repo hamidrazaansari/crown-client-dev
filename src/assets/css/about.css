@@ -1,0 +1,1380 @@
+.about {
+  background-color: #fbfbfb;
+  padding: 60px 0;
+}
+
+.about-vid-box {
+  height: 550px;
+  width: 560px;
+  position: relative;
+}
+
+.about-vid-box img {
+  height: 100%;
+  width: 100%;
+}
+
+.Space-box {
+  height: 500px;
+  width: 500px;
+  position: relative;
+}
+
+.Space-box img {
+  height: 100%;
+  width: 100%;
+}
+
+.playIcon {
+  position: absolute;
+  left: 43%;
+  top: 45%;
+  height: 50px !important;
+  width: 50px !important;
+}
+
+.about .about-content h2 {
+  font-size: 35px;
+  font-family: dion;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  margin-bottom: 20px;
+  color: #000;
+}
+
+.space-heading {
+  font-size: 35px;
+  font-family: inter !important;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  margin-bottom: 25px;
+  color: #333333;
+}
+
+.about-content {
+  width: 90%;
+}
+
+.about-content h3 {
+  font-size: 25px;
+  font-family: dion;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  color: #000;
+  letter-spacing: 1.8px;
+}
+
+.about-content p {
+  font-size: 17px;
+  font-family: 'LightInter';
+  color: #4f4e4e;
+  line-height: 30px;
+  padding-right: 22px;
+  font-weight: 400;
+  letter-spacing: 1.2px;
+  font-weight: 400;
+}
+
+.about-content button {
+  border: 1px solid #000;
+  color: #232323;
+  text-transform: uppercase;
+  font-size: 13px;
+  background: transparent;
+  padding: 10px 20px;
+  font-family: "dion";
+  letter-spacing: 2px;
+  margin-top: 0px;
+  border-radius: 5px;
+}
+
+.about-content button a {
+  color: #000;
+}
+
+.line {
+  background-color: #e79c0782;
+  height: 1px;
+  width: 50%;
+  margin-bottom: 30px;
+}
+
+.about .custom-video {
+  width: 100%;
+  height: 100%;
+  display: block;
+  border-radius: 32px;
+}
+
+.heritage-info-container {
+  margin: 60px 0px 40px !important;
+  margin-left: 168px !important;
+}
+
+
+/* ********************About us ********************* */
+
+.About-us .image-box {
+  height: 400px;
+  max-width: 590px;
+}
+
+.About-us .image-box img {
+  height: 100%;
+  width: 100%;
+}
+
+.About-us .content-box h2 {
+  font-family: JuliusSansOne;
+}
+
+.About-us .content-box p {
+  font-family: inter;
+  font-size: 14px;
+  color: #00000054;
+}
+
+.About-us .content-box {
+  padding: 20px;
+}
+
+.About-us .content-box .line {
+  background-color: #e79c0782;
+  height: 1px;
+  width: 30%;
+  margin-bottom: 20px;
+  margin-top: 15px;
+}
+
+.why {
+  background-color: #f5f5f5;
+  padding: 40px 0;
+  margin: 40px 0;
+  position: relative;
+}
+
+.why::before {
+  position: absolute;
+  content: "";
+  height: 100%;
+  width: 100%;
+  top: 0;
+  z-index: 1;
+  background: url(../image/why-bg.png);
+}
+
+.why h2,
+.globle h2 {
+  font-family: JuliusSansOne;
+  text-align: center;
+  margin: 10px 0;
+  font-size: 35px;
+  letter-spacing: 2px;
+  margin-bottom: 30px;
+}
+
+.why .image-box {
+  height: 100px;
+  width: 100px;
+  background-color: #ffecc4;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.why .image-box img {
+  height: 60%;
+  width: 60%;
+}
+
+.why .points-box {
+  background-color: #fff;
+  position: relative;
+  z-index: 2;
+  padding: 20px;
+  margin: 10px;
+  width: 70%;
+}
+
+.why .points-box h3 {
+  font-family: "inter";
+  font-size: 17px;
+  margin: 10px 0;
+}
+
+.why .points-box span {
+  position: absolute;
+  right: 21px;
+  color: #00000073;
+  font-size: 19px;
+}
+
+.why .points-box p {
+  color: #00000059;
+  margin-bottom: 10px;
+  font-family: "Kanit";
+}
+
+.img-container {
+  height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.img-container img {
+  height: 100%;
+}
+
+
+/* App Navbar Starts Here */
+.appBar {
+  position: relative;
+  width: 100%;
+  min-height: 64px;
+  display: flex;
+  z-index: 10;
+}
+
+.appBar .navbarContainer {
+  position: relative;
+  width: 100%;
+  z-index: 3;
+}
+
+.appBar .navbarContainer .navbarWrapper {
+  height: 100%;
+}
+
+.appBar .navbarContainer .navbarWrapper .mainNavbar {
+  display: flex;
+  height: inherit;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+
+.appBar .navbarContainer .navbarWrapper .mainNavbar a {
+  padding: 20px;
+  text-decoration: none;
+  color: #000;
+}
+
+.appBar .navbarContainer .navbarWrapper .mainNavbar.is-2 a {
+  color: #fff;
+}
+
+/* App Navbar Ends Here */
+
+.thank-you-container {
+  position: relative;
+  width: 100% !important;
+  height: 90vh;
+  z-index: 3;
+}
+
+.thank-you-container .thank-you-wrapper {
+  width: 100%;
+  height: 90vh;
+}
+
+.thank-you-container .thank-you-wrapper .thank-you {
+  position: relative;
+  display: flex;
+  /* width: 100vw; */
+  height: 90vh;
+  background-color: #fff;
+  color: #000;
+  z-index: 1;
+}
+
+.thank-you-container .thank-you-wrapper .thank-you.is-2, .appBar .navbarContainer .navbarWrapper .mainNavbar.is-2 {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+  z-index: 3;
+  background-color: #0B0B0F;
+  color: #fff;
+  height: 100%;
+}
+
+.thank-you-container .thank-you-wrapper .thank-you .content {
+  display: flex;
+  width: 100%;
+  /* height: 100%; */
+  justify-content: center;
+  align-items: center;
+}
+
+.thank-you-container .thank-you-wrapper .thank-you p {
+  font-size: 16rem;
+  line-height: 0.9;
+  font-weight: 700;
+  letter-spacing: 2px;
+  font-family: dion;
+}
+
+.lastContainer {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 5rem;
+  background-color: #eee;
+}
+
+.ctext {
+  position: relative;
+}
+
+
+
+/* New Style  */
+
+.about-company-section .breadcrumb a,
+.about-company-section .breadcrumb span {
+  font-size: 11px !important;
+}
+
+.about-company-section {
+  position: relative;
+  z-index: 10;
+  background-color: #fff;
+  padding: 30px 0;
+}
+
+.about-company h1 {
+  font-size: 46px;
+  font-weight: 700;
+  color: #000000;
+  font-family: dion;
+}
+
+.about-company p {
+  font-size: 17px;
+  line-height: 21px;
+  font-family: LightInter;
+  letter-spacing: 1px;
+  color: #000 !important;
+}
+
+.heritage-section {
+  background: url(../image/about-image-1.jpg);
+  background-attachment: fixed;
+  position: relative;
+  z-index: 10;
+  overflow-y: unset;
+  height: 550px;
+
+}
+
+.heritage-section .banner-item {
+  width: 80% !important;
+  margin-left: 0px;
+  align-items: start !important;
+}
+
+.heritage-section .banner-item p {
+  position: unset;
+  margin-left: 50px;
+  text-align: left;
+  text-wrap: auto;
+  margin-top: 10px;
+  width: 75% !important;
+  font-size: 16px;
+  color: #fff;
+}
+
+.heritage-section .banner-item h1 {
+  text-align: left !important;
+  margin-left: 50px;
+  color: #fff;
+}
+
+.banner-item {
+  min-width: 140px;
+}
+
+.heritage-section .year-highlight {
+  margin-bottom: 30px;
+  font-size: 14px;
+  font-weight: 400;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-left: 55px;
+  color: #fff;
+}
+
+.heritage-section .banner-item {
+  text-align: left !important;
+  position: relative;
+  padding: 50px 0;
+}
+
+.heritage-section .circle {
+  width: 19px;
+  height: 19px;
+  background-color: white;
+  border-radius: 100%;
+  display: block;
+  margin-right: 19px;
+}
+
+.heritage-section .circles {
+  width: 19px;
+  height: 19px;
+  background-color: white;
+  border-radius: 100%;
+  display: block;
+  margin-right: 19px;
+  position: absolute;
+  bottom: -51px;
+  right: 74px;
+  z-index: 10;
+}
+
+.heritage-btn {
+  font-size: 14px;
+  background-color: transparent;
+  border: 1px solid #fff;
+  padding: 18px 36px;
+  color: #fff;
+  border-radius: 2px;
+  margin-top: 44px;
+  margin-left: 49px;
+
+}
+
+.heritage-btn .circle {
+  margin-right: 0;
+  width: 8px;
+  height: 8px;
+  margin: auto 8px;
+}
+
+.heritage-section .slick-next {
+  right: -9px !important;
+  top: 201px !important;
+}
+
+.heritage-section .slick-prev {
+  left: -41px !important;
+  background: #0000 !important;
+  top: 200px !important;
+}
+
+.progress-bar-container {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.progress-bar-wrapper {
+  width: 271px;
+  height: 2px;
+  background: #7d7d7d;
+  border-radius: 5px;
+  position: relative;
+}
+
+.progress-bar-wrapper::after {
+  position: absolute;
+  content: '';
+  height: 15px;
+  width: 15px;
+  background-color: #fff;
+  top: -7px;
+  left: -12px;
+  border-radius: 10px;
+}
+
+.progress-bar {
+  height: 100%;
+  background: #fff !important;
+  width: 0%;
+  transition: width 0.1s linear;
+}
+
+.progress-btn.active {
+  color: #ff6600;
+}
+
+.visionContainer {
+  position: relative;
+  z-index: 10;
+  background-color: #fff;
+}
+
+.visionContainer h1 {
+  font-size: 40px;
+  margin-bottom: 30px;
+  font-family: dion;
+  text-align: left;
+}
+
+.visionContainer p {
+  font-size: 16px;
+  font-family: Kanit;
+  letter-spacing: 0.7px;
+  opacity: 0.7;
+}
+
+.crownSection {
+  height: 700px !important;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  z-index: 7;
+}
+
+.video-bg {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  min-width: 100%;
+  min-height: 100%;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  /* Puts video in the background */
+  background-position: center;
+}
+
+.crownSpecialize h3 {
+  font-size: 55px;
+  color: #fff;
+  font-weight: 700;
+  margin-bottom: 40px;
+  font-family: dion;
+}
+
+.crownBtn {
+  background-color: transparent;
+  border: 1px solid #ffff;
+  font-size: 13px;
+  font-weight: 400;
+  color: #fff;
+  padding: 12px 20px;
+  border-radius: 5px;
+}
+
+.crownBtn span {
+  padding-right: 12px;
+}
+
+.crowLaminationSection {
+  padding: 20px 0px;
+  background-color: #fff;
+  position: relative;
+  z-index: 10;
+
+}
+
+.crowLaminationSection h1 {
+  font-family: dion;
+  letter-spacing: 1.6px;
+  font-size: 46px;
+  text-transform: uppercase;
+}
+
+.crowLaminationSection>.container {
+  border-bottom: 1px solid #1f1f1f69;
+  padding: 80px 0px;
+}
+
+.crowLaminationSection .crownBox {
+  background-color: #000;
+  padding: 30px;
+  width: 99%;
+  height: 100%;
+  color: white;
+  padding-top: 40px;
+  font-family: dion;
+  letter-spacing: 1.7px;
+  transition: all .5s ease;
+  border-radius: 5px;
+}
+
+.crownBox.active {
+  background-color: #e69b00;
+  color: white;
+}
+
+.crownBox:hover {
+  background-color: #e69b00;
+  color: white !important;
+}
+
+.crownBox:hover p {
+  color: white;
+}
+
+
+.crownBox.active p {
+  color: white;
+}
+
+.crownBox h3 {
+  margin-bottom: 20px;
+}
+
+.crownBox p {
+  font-size: 14px;
+  color: #969595;
+  font-family: kanit;
+  letter-spacing: 1px;
+  opacity: 0.7;
+
+}
+
+.globeSection {
+  padding: 30px 0px;
+  position: relative;
+  z-index: 10;
+  background-color: #fff;
+}
+
+.globeSection h2 {
+  margin-bottom: 20px;
+  font-family: dion;
+}
+
+.globeImageContainer img {
+  width: 90%;
+  margin: 0 5%;
+  margin-bottom: 20px;
+
+}
+
+.gloabFooterInfo {
+  text-align: center;
+  font-family: dion;
+  letter-spacing: 1.8px;
+  margin-top: 20px;
+  position: relative;
+  z-index: 10;
+
+}
+
+.gloabFooterInfo p {
+  opacity: 0.6;
+  font-family: Kanit;
+}
+
+.procedure {
+  height: 3px;
+  width: 100px;
+  position: absolute;
+  bottom: 20px;
+  background-color: #fff;
+  z-index: 2;
+}
+
+.procedure-bg {
+  height: 3px;
+  width: 100%;
+  position: absolute;
+  bottom: 20px;
+  background-color: #333333;
+  z-index: 1;
+}
+
+/* .procedure-bg::before{
+  content: '';
+  position: absolute;
+  height: 10px;
+  width: 10px;
+  background-color: #333333;
+  border-radius: 50%;
+  z-index: 2;
+  bottom: -3px;
+  left: 40%;
+} */
+
+.banner-item h1 {
+  font-family: dion;
+  font-size: 50px;
+}
+
+/* 
+@media (max-width:1200px) {
+  .about-vid-box {
+    height: 501px !important;
+    width: 425px !important;
+    position: relative;
+  }
+
+  .about .about-content h2 {
+    font-size: 65px;
+    margin-bottom: 15px;
+  }
+}
+
+@media (max-width: 992px) {
+  .about-content {
+    width: 100%;
+    margin: 0 0px;
+    margin-top: 28px;
+  }
+
+  .Space-box {
+    height: 435px;
+    position: relative;
+    margin: 34px;
+    width: 500px;
+  }
+
+  .about-vid-box {
+    height: 423px !important;
+    width: 600px !important;
+    position: relative;
+  }
+
+  .about-content h3 {
+    font-size: 33px;
+  }
+}
+
+@media (max-width: 767px) {
+  .Space-box {
+    height: 400px;
+    position: relative;
+    margin: 34px;
+    width: 416px;
+  }
+
+  .about-vid-box {
+    height: 400px !important;
+    width: 480px !important;
+    position: relative;
+  }
+} */
+/* 
+@media (max-width: 500px) {
+  .about-vid-box {
+    height: 300px !important;
+    width: 380px !important;
+    position: relative;
+  }
+
+  .about .about-content h2 {
+    font-size: 40px;
+    margin-bottom: 5px;
+  }
+
+  .about-content h3 {
+    font-size: 26px;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+  }
+
+  .Space-box {
+    height: 330px;
+    position: relative;
+    margin: 34px;
+    width: 325px;
+  }
+
+  .crowLaminationSection .crownBox {
+    width: 90%;
+    margin: 20px auto;
+    padding: 18px;
+  }
+
+  .crowLaminationSection .crownBox {
+    width: 90%;
+    margin: auto;
+    padding: 18px;
+    height: 94%;
+  }
+
+  .crowLaminationSection>.container {
+    padding: 10px 0px;
+  }
+
+  .crowLaminationSection h1 {
+    font-family: dion;
+    letter-spacing: 1.6px;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 16px;
+  }
+
+  .about-company h1 {
+    font-size: 30px;
+  }
+
+  .about-company p {
+    font-size: 13px;
+  }
+
+  .crownSection {
+    height: 45vh;
+  }
+
+  .crownSpecialize h3 {
+    font-size: 30px;
+  }
+
+  .crownSpecialize {
+    width: 75%;
+  }
+
+  .heritage-section .year-highlight {
+    margin-left: 10px;
+    width: 22%;
+  }
+
+  .heritage-section .banner-item h1 {
+    margin-left: 10px;
+    width: 22%;
+    font-size: 35px;
+  }
+
+  .heritage-section .banner-item p {
+    position: unset;
+    margin-left: 14px;
+    text-align: left;
+    text-wrap: auto;
+    margin-top: 10px;
+    width: 50% !important;
+    font-size: 15px;
+  }
+
+  .heritage-btn {
+    font-size: 14px;
+    background-color: transparent;
+    border: 1px solid #fff;
+    padding: 12px 27px;
+    color: #fff;
+    border-radius: 2px;
+    margin-top: 44px;
+    margin-left: 13px;
+  }
+
+  .crowLaminationSection .crownBox {
+    width: 100%;
+    margin: 20px;
+    padding: 18px;
+    height: 82%;
+  }
+
+  .procedure-bg {
+    height: 3px;
+    width: 100%;
+    position: absolute;
+    bottom: 78px;
+    background-color: #333333;
+    z-index: 1;
+  }
+
+  .procedure {
+    height: 3px;
+    width: 100px;
+    position: absolute;
+    bottom: 78px;
+    background-color: #fff;
+    z-index: 2;
+  }
+
+  .heritage-section .circles {
+    width: 19px;
+    height: 19px;
+    background-color: white;
+    border-radius: 100%;
+    display: block;
+    margin-right: 19px;
+    position: absolute;
+    bottom: -87px;
+    right: 74px;
+    z-index: 10;
+  }
+
+  .heritage-section .banner-item {
+    width: 30% !important;
+    margin-left: 0px;
+    align-items: start !important;
+  }
+
+}
+
+@media (max-width: 400px) {
+  .about-vid-box {
+    height: 368px;
+    width: 300px;
+    position: relative;
+  }
+
+  .about-content {
+    margin: 20px;
+  }
+
+  .Space-box {
+    height: 290px;
+    position: relative;
+    margin: 10px;
+    width: 279px;
+  }
+
+  .crownBox h3 {
+    margin-bottom: 10px;
+    font-size: 17px;
+  }
+
+  .crownBox p {
+    font-size: 12px;
+    color: #969595;
+    font-family: kanit;
+    letter-spacing: 1px;
+    opacity: 0.7;
+    margin-bottom: 7px;
+  }
+
+  .heritage-section .circles {
+    bottom: -22px;
+}
+
+} */
+.crownSection {
+  color: #fff;
+  text-align: center;
+}
+
+.crownSpecialize h3 {
+  font-size: 60px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+
+/* 🔹 Crown Laminates Section */
+.crowLaminationSection {
+  padding: 60px 0;
+  background: #f8f8f8;
+}
+
+.crowLaminationSection h1 {
+  font-size: 36px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.crownBox {
+  background: #fff;
+  padding: 20px;
+  text-align: center;
+  border-radius: 8px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  transition: 0.3s ease-in-out;
+  margin-bottom: 20px;
+}
+
+.crownBox:hover {
+  transform: translateY(-5px);
+}
+
+.crownBox h3 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.crownBox p {
+  font-size: 16px;
+  color: #666;
+  margin: 5px 0;
+}
+.heading{
+  display: none
+}
+.width{
+  width: 75% !important;
+}
+
+.crowLaminationSection .crownBox {
+  height: 88%;
+  margin: 20px !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-content img {
+  height: 80px;
+  margin-bottom: 10px;
+}
+
+.about-company img {
+  height: 115px;
+}
+
+.about-company h2 {
+  font-family: dion;
+  font-size: 35px;
+  letter-spacing: 1.4px;
+}
+
+@media (max-width:1200px) {
+  .crownSpecialize {
+    position: absolute;
+    width: 69%;
+    z-index: 13;
+    left: 39%;
+    top: 50%;
+    transform: translate(-40%, -50%);
+  }
+
+  .about-vid-box {
+    height: 450px;
+    width: 430px;
+    position: relative;
+  }
+
+  .pos,
+  .footer,
+  .footer-bottom {
+    position: relative !important;
+    top: 841px;
+  }
+
+  .heritage-section .circles {
+    bottom: -66px;
+  }
+}
+
+/* 🔹 Responsive Styles */
+@media screen and (max-width: 1024px) {
+
+
+  .crowLaminationSection h1 {
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .about-vid-box {
+    height: 550px;
+    width: 550px;
+    position: relative;
+    margin-top: 220px;
+  }
+
+  .about-vid-box {
+    height: 420px;
+    width: 575px;
+    position: relative;
+    margin-top: 570px;
+  }
+
+  .banner-item {
+    height: 529px;
+    width: 614px;
+  }
+
+  .heritage-section .circles {
+    bottom: -334px;
+  }
+
+  .about-company img {
+    height: 90px;
+    margin-bottom: 25px;
+  }
+
+  .about-company p {
+    font-size: 15px;
+    line-height: 21px;
+    font-family: 'LightInter';
+    letter-spacing: 1px;
+    color: #000 !important;
+  }
+
+  .heritage-section .banner-item p {
+    margin-left: 20px;
+    margin-top: 10px;
+    width: 100% !important;
+    font-size: 14px;
+    font-family: 'LightInter';
+    letter-spacing: 1.3px;
+  }
+
+  .heritage-section .banner-item h1 {
+    font-family: dion;
+    font-size: 35px;
+    margin-left: 20px;
+  }
+
+  .heritage-section .year-highlight {
+    margin-left: 20px;
+  }
+
+  .heritage-btn {
+    font-size: 14px;
+    padding: 10px 25px;
+    margin-top: 8px;
+    margin-left: 20px;
+  }
+
+  .heritage-section .banner-item {
+    margin-top: 40px;
+    margin-left: 20px;
+  }
+
+  .heritage-section .slick-prev {
+    left: -8px !important;
+  }
+
+  .progress-bar-container {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-top: -118px;
+    margin-left: 10px;
+  }
+
+  .visionContainer p {
+    font-size: 14px;
+    font-family: 'LightInter';
+    letter-spacing: 0.7px;
+    opacity: 0.7;
+    color: #000;
+  }
+
+  .progress-bar-container {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 0px;
+    margin-left: 10px;
+  }
+
+}
+
+@media (max-width:992px) {
+  .heading{
+    position: absolute;
+    top: 65vh;
+    display: block;
+  }
+  .heading h3{
+    font-family: dion;
+    text-transform: uppercase;
+    letter-spacing: 2.0px;
+    line-height: 55px;
+    font-size: 30px;
+  }
+}
+
+
+
+@media screen and (max-width: 768px) {
+  .crownSpecialize h3 {
+    font-size: 22px;
+  }
+
+  .crownBtn {
+    font-size: 16px;
+    padding: 10px 20px;
+  }
+
+  .crowLaminationSection {
+    padding: 40px 0;
+  }
+
+  .crowLaminationSection h1 {
+    font-size: 28px;
+    text-align: center;
+  }
+
+  .crownBox {
+    padding: 15px;
+  }
+
+  .crownBox h3 {
+    font-size: 20px;
+  }
+
+  .crownBox p {
+    font-size: 14px;
+  }
+
+  .about-vid-box {
+    height: 420px;
+    width: 538px;
+    position: relative;
+  }
+
+  .about-company h1 {
+    font-size: 25px;
+  }
+
+  .about-vid-box {
+    height: 400px !important;
+    width: 523px !important;
+    position: relative;
+  }
+
+  .heritage-info-container {
+    margin: 60px 0px 40px !important;
+    margin-left: 22px !important;
+  }
+  .center-in-mobile{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .crownSpecialize {
+    position: absolute;
+    width: 76%;
+    z-index: 13;
+    left: 41%;
+    top: 50%;
+  }
+
+  .crownSpecialize h3 {
+    font-size: 40px;
+  }
+
+  .crownBtn {
+    font-size: 14px;
+    padding: 8px 16px;
+  }
+
+  .crowLaminationSection {
+    padding: 30px 0;
+  }
+
+
+  .crowLaminationSection h1 {
+    font-size: 26px;
+    text-align: center;
+  }
+
+  .crownBox h3 {
+    font-size: 14px;
+}
+
+  .crownBox p {
+    font-size: 13px;
+  }
+
+  .about .about-content h2 {
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 10px !important;
+  }
+
+  .about-content h3 {
+    font-size: 20px;
+    font-family: dion;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    color: #000;
+    letter-spacing: 1px;
+    line-height: 25px;
+  }
+
+  .about-vid-box {
+    height: 289px !important;
+    width: 390px !important;
+    position: relative;
+}
+
+  .about-content {
+    width: 100%;
+    padding: 0 10px !important;
+  }
+
+  .progress-bar-container {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-top: -60px;
+    margin-left: 10px;
+  }
+  .crowLaminationSection>.container {
+    border-bottom: 1px solid #1f1f1f69;
+    padding: 30px 0px;
+  }
+  .heading{
+    position: absolute;
+    top: 56vh;
+    display: block;
+  }
+  .heading h3{
+    font-family: dion;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    line-height: 40px;
+    font-size: 25px;
+  }
+  .width{
+    width: 100% !important;
+  }
+
+}
+
+@media (max-width:400px) {
+  .about-vid-box {
+    height: 224px !important;
+    position: relative;
+    width: 328px !important;
+    margin-top: 420px !important;
+
+  }
+
+  .about .custom-video {
+    border-radius: 14px !important;
+  }
+  .heading{
+    top: 59vh;
+    padding: 0 15px;
+
+  }
+  .heading h3 {
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .heritage-info-container {
+    margin: 21px 0px 31px !important;
+    margin-left: 0px !important;
+  }
+
+  .heritage-section .banner-item h1 {
+    font-family: dion;
+    font-size: 31px;
+    margin-left: 20px;
+  }
+  .crowLaminationSection .crownBox {
+    height: 85%;
+    padding: 43px 20px !important;
+    padding-top: 15px !important;
+}
+.crownSection {
+  height: 263px !important;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  z-index: 7;
+}
+
+
+
+}
+
+@media (max-width:340px) {
+  .about-vid-box {
+    min-width: 295px !important;
+  }
+}

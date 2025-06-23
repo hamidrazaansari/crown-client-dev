@@ -1,0 +1,183 @@
+.placeOrder h2{
+    font-size: 21px;
+    font-family: 'inter';
+    margin-bottom: 0 !important;
+}
+.placeOrder .select-search-input{
+    background: transparent !important;
+    border: 1px solid #E69B00;
+    border-radius: 8px !important;
+}
+.placeOrder .select-search-input{
+    padding: 22px 15px 10px !important;
+    font-size: 14px !important; 
+}
+.placeOrder .select-search-input:hover{
+    border: 1px solid #E69B00 !important;
+}
+.placeOrder input, .placeOrder textarea {
+    width: 100%;
+    height: 55px;
+    border-radius: 4px;
+    border: 1px solid #36363656;
+    margin: 10px 0;
+    padding: 8px 15px 10px;
+}
+.placeOrder input:hover , .placeOrder:focus, .placeOrder textarea:hover , .placeOrder:focus , .placeOrder input:active , .placeOrder textarea:active  {
+    border: 1px solid #E69B00;
+    outline: none !important;
+}
+.placeOrder textarea{
+    padding-top: 12px;
+}
+.placeOrder .select-search-container:not(.select-search-is-disabled).select-search-has-focus .select-search-input, .select-search-container:not(.select-search-is-disabled) .select-search-input:hover {
+    border: 1px solid #E69B00 !important;
+}
+.placeOrder label{
+    font-size: 14px;
+    font-family: 'inter';
+    color: #00000063;
+    position: relative;
+    top: 35px;
+    left: 17px;
+}
+.placeOrder .order-button {
+    background-color: #FFF1D5;
+    border: 1px solid #E69B00;
+    color: #000;
+    margin-top: 39px;
+    width: 100%;
+    height: 57px;
+    font-weight: 700;
+    font-family: 'Kanit';
+    margin-bottom: 20px;
+    border-radius: 8px;
+    letter-spacing: 2px;
+    font-size: 19px;
+}
+.order-box {
+    background-color: #fff;
+    padding: 10px;
+    margin-top: 14px;
+    border-radius: 13px;
+    box-shadow: 1px 0px 5px #7878786b;
+}
+.order-box h2 {
+    font-size: 14px;
+    font-family: inter;
+    font-weight: bold;
+    margin: 0;
+}
+.order-box h3{
+    font-size: 15px;
+    margin: 5px 6px 0;
+}
+.order-box img{
+    height: 120px;
+    margin: 10px;
+    width: 85px;
+}
+.order-box p{
+    font-size: 14px;
+    margin: 0;
+    color: #00000088;
+    font-family: kaint;
+}
+.order-form{
+    padding: 30px 40px;
+    box-shadow: 1px 0px 5px #7878786b;
+    margin-top: 14px;
+    border-radius: 11px;
+    margin-bottom: 0px;
+    padding-bottom: 0;
+}
+.state  .select-search-input {
+    padding: 9px 15px 10px !important;
+}
+.order-form p{
+    font-family: inter;
+    color: #000000bd;
+}
+.order-info p{
+    font-family: inter;
+}
+.cancelBtn {
+    position: absolute;
+    right: 0;
+    top: 8px;
+    border: none;
+    background: transparent;
+    font-size: 19px;
+}
+
+.empty-cart h4{
+    font-family: dion;
+}
+.empty-cart p{
+    font-family: inter;
+}
+.empty-cart button{
+    border: none;
+    background: #000;
+    color: #fff;
+    padding: 5px 23px 6px;
+    font-family: 'Inter';
+    margin-top: 11px;
+}
+.empty-cart a{
+    color: #fff !important;
+}
+
+.css-b62m3t-container , .css-3iigni-containe {
+    position: relative;
+    box-sizing: border-box;
+    height: 50px !important;
+    margin: 20px 0 !important;
+    margin-bottom: 10 !important;
+}
+.css-19bb58m , .css-hlgwow{
+    height: 55px !important;
+}
+.css-1jqq78o-placeholder{
+    padding: 0 !important;
+    position: relative;
+    position: relative;
+    bottom: 5px !important;
+}
+.css-t3ipsp-control{
+    border-color: #000 !important;
+    box-shadow: none !important;
+}
+
+.stsearch-box input{
+    border: none !important;  
+    height: 100% !important;
+    width: 100% !important; 
+    margin: 0 !important;
+    padding: 15px 5px !important;
+    outline: none !important;
+}
+.stsearch-box input:not(:focus){
+    outline: none !important;
+    border: none !important;
+}
+.stdropdown-container{
+    margin: 15px 0 !important;
+}
+.stsearch-box{
+    padding: 0px 5px !important;
+}
+@media (max-width:992px) {
+    .thank-resp{
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+    
+}
+@media (max-width:500px) {
+    .order-form p {
+        font-family: inter;
+        color: #000000bd;
+        font-size: 13px;
+    }
+}

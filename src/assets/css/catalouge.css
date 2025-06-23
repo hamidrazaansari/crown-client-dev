@@ -1,0 +1,159 @@
+.catalogue-banner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.catalouge-btn button{
+    background-color: #FFFAF1;
+    border: 1px solid #E69B00;
+    color: #000;
+    width: 140px;
+    height: 40px;
+    margin: 20px 10px ;
+    border-radius: 5px;
+    font-family: inter;
+}
+.catalouge-btn button:hover{
+    background-color: #E69B00;
+    
+}
+.active-filter{
+    background-color: #E69B00 !important;
+
+}
+.catalogue-banner img{
+    width: 100%;
+   } 
+
+   @media (max-width:992px) {
+    .catalouge-btn button{
+        margin: 10px !important;
+    }
+    .catalouge-btn{
+        padding-top: 20px;
+    }
+   }
+
+@media (max-width:520px) {
+   .catalogue-banner img{
+    width: 100%;
+   } 
+   .catalouge-btn{
+    padding-top: 20px ;
+   }
+   .catalouge-btn button {
+    background-color: #FFFAF1;
+    border: 1px solid #E69B00;
+    color: #000;
+    width: 22%;
+    height: 27px;
+    margin: 5px 6px;
+    border-radius: 5px;
+    font-family: inter;
+    font-size: 12px;
+    margin: 5px  !important;
+}
+.certificate-box .container{
+    padding: 0 10px !important;
+}
+.certificate-box h1, .companies h2 {
+    font-family: dion;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 20px;
+    margin-bottom: 17px;
+}
+.certification-box p {
+    margin: 0 10px;
+    font-family: inter;
+    font-size: 11px;
+    color: #000000be;
+    letter-spacing: 0px;
+}
+.certificate-box{
+    padding-left: 10px;
+}
+.certificate-btn {
+    border: none;
+    background-color: #FFFCF6;
+    height: 45px;
+    width: 35%;
+    margin: 0 7px;
+    box-shadow: 0px 2px 3px #a19b9b8f;
+    border-radius: 4px;
+    font-family: inter;
+    color: #000000be;
+    margin-bottom: 10px;
+    font-size: 12px;
+}
+.certification-box{
+    height: 45px;
+}
+.certificate-btn img{
+    display: none ;
+}
+.company-logo{
+    height: 145px;
+}
+}
+
+
+/* Make modal use full height on small screens */
+.certificate-modal .modal-dialog {
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
+    height: 100vh;
+  }
+  
+  .certificate-modal .modal-content {
+    height: 100vh;
+    border-radius: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  .certificate-modal .modal-body {
+    padding: 0;
+    height: 100%;
+    position: relative;
+}
+  
+  /* Cancel Button */
+  .certificate-cancel-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 10;
+    background: transparent;
+    border: none;
+    font-size: 1.5rem;
+    color: #333;
+  }
+  
+  /* PDF iframe styling */
+  .display-certificate {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  .certificate-iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+  }
+
+  @media (max-width:768px) {
+    .certificate-modal .certificate-cancel-btn {
+      position: relative;
+      left: unset !important;
+      padding: 0 10px !important;
+  }
+  .certificate-modal .certificate-cancel-btn svg {
+    height: 15px !important;
+    width: 15px !important;
+  }
+  
+  }

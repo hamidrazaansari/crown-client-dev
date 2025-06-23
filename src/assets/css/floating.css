@@ -1,0 +1,32 @@
+.floating-button {
+    position: fixed;
+    bottom: 30px;
+    right: 0px;
+    background-color: #676767;
+    color: #fff;
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    padding: 6px;
+    height: 200px;
+  }
+  
+  .floating-button .button:hover {
+    transform: scale(1.1);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+  }
+
+.floating-button .button{
+    background: transparent;
+    border: none;
+}
+.floating-button .button img{
+    height: 30px;
+    margin: 10px 0;
+}
