@@ -10,6 +10,7 @@ import { API_URL } from "../utills/BaseUrl";
 import { toast, ToastContainer } from "react-toastify";
 import Swal from 'sweetalert2'
 import { CountrySelect } from "react-country-state-city";
+import getImageURL from '../utills/getImageURL';
 
 
 
@@ -25,7 +26,7 @@ function MyVerticallyCenteredModal(props) {
             <Modal.Header closeButton>
             </Modal.Header>
             <Modal.Body>
-                <img src={ModalBanner} className='img-fluid' alt="crown modal banner " />
+                <img src={props.imageUrl} className='img-fluid' alt="crown modal banner " />
             </Modal.Body>
         </Modal>
     );
@@ -55,8 +56,6 @@ function NewsLatterModal(props) {
 
         }
     }
-
-    console.log(error.email);
     
     return (
         <>
@@ -71,7 +70,7 @@ function NewsLatterModal(props) {
                 <Modal.Header closeButton>
                 </Modal.Header>
                 <Modal.Body>
-                    <img src={newslatterBg} className='w-100 h-100 m-0 newslatterBg img-fluid' alt="crown modal banner" />
+                    <img src={props.imageUrl} className='w-100 h-100 m-0 newslatterBg img-fluid' alt="crown modal banner" />
                     <div className="newsLatterContent">
                         <h3>Subscribe to our</h3>
                         <h2>Newsletter</h2>
@@ -80,7 +79,7 @@ function NewsLatterModal(props) {
                             <input type="text" className='form-control' value={email} onChange={(e) => { setEmail(e.target.value) }} /> 
                             <button className='newsLatterBtn' onClick={handleSubmit}>Join</button>
                         </div>
-                            <small className='text-danger'>{error.email ? error.email : ''}</small>
+                            <small className='text-danger' style={{position:"relative" , left:"-66px"}}>{error.email ? error.email : ''}</small>
                     </div>
                 </Modal.Body>
             </Modal>
@@ -200,7 +199,7 @@ function ModalWithBannerAndForm(props) {
             <Modal.Body>
                 <div className="row">
                     <div className="col-6 p-0">
-                        <img src={imageWithForm} className='h-100 w-100 img-fluid ' alt="crown modal banner " />
+                        <img src={props.imageUrl} className='h-100 w-100 img-fluid ' alt="crown modal banner " />
                     </div>
                     <div className="col-6 p-0">
                         <div className='form'>
@@ -294,13 +293,15 @@ export default function AddModal({ modalShow, setModalShow }) {
 
     console.log(popup);
 
-
+    const imageUrl = getImageURL(popup.image)
+    
     return (
         <>
             {popup?.popupType === "NEWSLETTER" && (
                 <NewsLatterModal
                     show={modalShow}
                     onHide={() => setModalShow(false)}
+                    imageUrl={imageUrl}
                 />
             )}
 
@@ -308,6 +309,7 @@ export default function AddModal({ modalShow, setModalShow }) {
                 <MyVerticallyCenteredModal
                     show={modalShow}
                     onHide={() => setModalShow(false)}
+                    imageUrl={imageUrl}
                 />
             )}
 
@@ -316,6 +318,7 @@ export default function AddModal({ modalShow, setModalShow }) {
                     show={modalShow}
                     onHide={() => setModalShow(false)}
                     setModalShow={setModalShow}
+                    imageUrl={imageUrl}
                 />
             )}
 
