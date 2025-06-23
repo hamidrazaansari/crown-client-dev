@@ -31,8 +31,8 @@ function MyVerticallyCenteredModal(props) {
     );
 }
 function NewsLatterModal(props) {
-    const [email, setEmail] = useState()
-    const [error, setError] = useState()
+    const [email, setEmail] = useState('')
+    const [error, setError] = useState('')
 
         const token = localStorage.getItem("authToken");
 
@@ -55,6 +55,9 @@ function NewsLatterModal(props) {
 
         }
     }
+
+    console.log(error.email);
+    
     return (
         <>
             <ToastContainer />
@@ -74,9 +77,10 @@ function NewsLatterModal(props) {
                         <h2>Newsletter</h2>
                         <p>To be updated with all the latest trends and products</p>
                         <div className="d-flex">
-                            <input type="text" className='form-control' value={email} onChange={(e) => { setEmail(e.target.value) }} />
+                            <input type="text" className='form-control' value={email} onChange={(e) => { setEmail(e.target.value) }} /> 
                             <button className='newsLatterBtn' onClick={handleSubmit}>Join</button>
                         </div>
+                            <small className='text-danger'>{error.email ? error.email : ''}</small>
                     </div>
                 </Modal.Body>
             </Modal>
