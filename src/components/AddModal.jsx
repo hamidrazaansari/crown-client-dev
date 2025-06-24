@@ -49,7 +49,7 @@ function NewsLatterModal(props) {
                 }
             )
             Swal.fire({
-                title: "Subscribed! 🎉",
+                title: "Subscribed!",
                 text: "Thank you for subscribing to our newsletter. You'll now be the first to hear about our latest updates, exclusive offers, and exciting news!",
                 icon: "success",
                 confirmButtonText: "Close"
