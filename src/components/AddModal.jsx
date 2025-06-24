@@ -49,10 +49,10 @@ function NewsLatterModal(props) {
                 }
             )
             Swal.fire({
-                title: "You're In! 🎉",
+                title: "Subscribed! 🎉",
                 text: "Thank you for subscribing to our newsletter. You'll now be the first to hear about our latest updates, exclusive offers, and exciting news!",
                 icon: "success",
-                confirmButtonText: "Awesome!"
+                confirmButtonText: "Close"
             });
             props.setModalShow(false)
 
@@ -65,13 +65,13 @@ function NewsLatterModal(props) {
 
     return (
         <>
-            <ToastContainer />
             <Modal
                 {...props}
                 size="lg"
                 aria-labelledby="contained-modal-title-vcenter"
                 centered
                 className='crown-modal'
+                backdrop="static" 
             >
                 <Modal.Header closeButton>
                 </Modal.Header>

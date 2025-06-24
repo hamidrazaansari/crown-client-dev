@@ -4,9 +4,9 @@ import { ScrollTrigger } from "gsap/all";
 import { useGSAP } from "@gsap/react";
 import HeroBanner from '../assets/image/hero-banner.png'
 import WhiteLogo from '../assets/image/white-logo-crown.png'
-import bannerVideo from '../assets/video/banner.mp4'
+import bannerVideo from '../assets/video/banner-new.mp4'
 // import Logo from '../assets/image/'
-import WebsiteBanner from '../assets/image/Websitebanner.png'
+// import WebsiteBanner from '../assets/image/Websitebanner.png'
 
 gsap.registerPlugin(ScrollTrigger);
 
