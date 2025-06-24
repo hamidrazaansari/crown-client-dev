@@ -35,7 +35,7 @@ function NewsLatterModal(props) {
     const [email, setEmail] = useState('')
     const [error, setError] = useState('')
 
-        const token = localStorage.getItem("authToken");
+    const token = localStorage.getItem("authToken");
 
 
     const handleSubmit = async (e) => {
@@ -48,7 +48,12 @@ function NewsLatterModal(props) {
                     }
                 }
             )
-            toast.success(response.data?.message)
+            Swal.fire({
+                title: "You're In! 🎉",
+                text: "Thank you for subscribing to our newsletter. You'll now be the first to hear about our latest updates, exclusive offers, and exciting news!",
+                icon: "success",
+                confirmButtonText: "Awesome!"
+            });
             props.setModalShow(false)
 
         } catch (error) {
@@ -57,7 +62,7 @@ function NewsLatterModal(props) {
 
         }
     }
-    
+
     return (
         <>
             <ToastContainer />
@@ -77,10 +82,10 @@ function NewsLatterModal(props) {
                         <h2>Newsletter</h2>
                         <p>To be updated with all the latest trends and products</p>
                         <div className="d-flex">
-                            <input type="text" className='form-control' value={email} onChange={(e) => { setEmail(e.target.value) }} /> 
+                            <input type="text" className='form-control' value={email} onChange={(e) => { setEmail(e.target.value) }} />
                             <button className='newsLatterBtn' onClick={handleSubmit}>Join</button>
                         </div>
-                            <small className='text-danger' style={{position:"relative" , left:"-66px"}}>{error.email ? error.email : ''}</small>
+                        <small className='text-danger' style={{ position: "relative", left: "-66px" }}>{error.email ? error.email : ''}</small>
                     </div>
                 </Modal.Body>
             </Modal>
@@ -294,7 +299,7 @@ export default function AddModal({ modalShow, setModalShow }) {
     console.log(popup);
 
     const imageUrl = getImageURL(popup.image)
-    
+
     return (
         <>
             {popup?.popupType === "NEWSLETTER" && (
