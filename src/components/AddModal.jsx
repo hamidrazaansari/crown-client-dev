@@ -14,7 +14,7 @@ import getImageURL from '../utills/getImageURL';
 
 
 
-function MyVerticallyCenteredModal(props) {
+function BannerModal(props) {
     return (
         <Modal
             {...props}
@@ -49,6 +49,7 @@ function NewsLatterModal(props) {
                 }
             )
             toast.success(response.data?.message)
+            props.setModalShow(false)
 
         } catch (error) {
             toast.error(error.response?.data?.message)
@@ -161,7 +162,7 @@ function ModalWithBannerAndForm(props) {
                 text: "Your inquiry has been successfully submitted. Our team will review your request and get back to you as soon as possible.",
                 icon: "success"
             });
-            setModalShow(false)
+            props.setModalShow(false)
             setFormData({
                 country: "",
                 name: "",
@@ -207,18 +208,17 @@ function ModalWithBannerAndForm(props) {
                             <div className="d-flex flex-column" style={{ position: "relative" }}>
                                 <label htmlFor="country">Country</label>
                                 <CountrySelect
-
                                     containerClassName="form-group border-none"
                                     inputClassName=""
                                     onChange={(_country) => handleChange("country", _country?.name)}
                                     onTextChange={(_txt) => console.log(_txt)}
                                     placeHolder="Select Country"
                                 />
-                                {errors.country && <small style={{ color: 'red', fontSize: "11px", position: "absolute", top: "72px" }}>{errors.country}</small>}
+                                {errors.country && <small style={{ color: 'red', fontSize: "11px", position: "absolute", top: "77px" }}>{errors.country}</small>}
                             </div>
 
                             {/* Name Input */}
-                            <div className="d-flex flex-column" style={{ position: 'relative' }}>
+                            <div className="d-flex flex-column mt-2" style={{ position: 'relative' }}>
                                 <label htmlFor="name">Name</label>
                                 <input
                                     type="text"
@@ -226,7 +226,7 @@ function ModalWithBannerAndForm(props) {
                                     value={formData.name}
                                     onChange={(e) => handleChange("name", e.target.value)}
                                 />
-                                {errors.name && <small style={{ color: 'red', fontSize: "11px", position: "absolute", top: "72px" }}>{errors.name}</small>}
+                                {errors.name && <small style={{ color: 'red', fontSize: "11px", position: "absolute", top: "70px" }}>{errors.name}</small>}
                             </div>
 
                             {/* Email Input */}
@@ -238,7 +238,7 @@ function ModalWithBannerAndForm(props) {
                                     value={formData.email}
                                     onChange={(e) => handleChange("email", e.target.value)}
                                 />
-                                {errors.email && <small style={{ color: 'red', fontSize: "11px", position: "absolute", top: "72px" }}>{errors.email}</small>}
+                                {errors.email && <small style={{ color: 'red', fontSize: "11px", position: "absolute", top: "70px" }}>{errors.email}</small>}
                             </div>
 
                             {/* mobile Input */}
@@ -250,7 +250,7 @@ function ModalWithBannerAndForm(props) {
                                     value={formData.mobile}
                                     onChange={(e) => handleChange("mobile", e.target.value)}
                                 />
-                                {errors.mobile && <small style={{ color: 'red', fontSize: "11px", position: "absolute", top: "72px" }}>{errors.mobile}</small>}
+                                {errors.mobile && <small style={{ color: 'red', fontSize: "11px", position: "absolute", top: "70px" }}>{errors.mobile}</small>}
 
                             </div>
 
@@ -264,7 +264,7 @@ function ModalWithBannerAndForm(props) {
                                     rows={3}
                                     className="px-2"
                                 />
-                                {errors.message && <small style={{ color: 'red', fontSize: "11px", position: "absolute", top: "72px" }}>{errors.message}</small>}
+                                {errors.message && <small style={{ color: 'red', fontSize: "11px", position: "absolute", top: "70px" }}>{errors.message}</small>}
                             </div>
 
                             <button className="form-btn" onClick={handleSubmit}>
@@ -302,11 +302,13 @@ export default function AddModal({ modalShow, setModalShow }) {
                     show={modalShow}
                     onHide={() => setModalShow(false)}
                     imageUrl={imageUrl}
+                    setModalShow={setModalShow}
+
                 />
             )}
 
             {["IMAGE"].includes(popup?.popupType) && (
-                <MyVerticallyCenteredModal
+                <BannerModal
                     show={modalShow}
                     onHide={() => setModalShow(false)}
                     imageUrl={imageUrl}

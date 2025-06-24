@@ -148,8 +148,7 @@ z-index: 2;
     left: 0;
     height: 100%;
     width: 100%;
-    display: flex
-;
+    display: flex;
     z-index: 5;
     flex-direction: column;
     align-items: center;
@@ -187,6 +186,22 @@ z-index: 2;
     margin-left: 10px;
     border-radius: 6px;
     color: #fff;
+}
+.crown-modal .form input , .crown-modal .form textarea  , .crown-modal .stsearch-box{
+    background-color: transparent !important;
+    border: 1px solid !important;
+    border-radius: 6px !important;
+    margin-bottom: 15px !important;
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+}
+.crown-modal .stsearch-box{
+        margin-bottom: 0px !important;
+}
+
+.crown-modal .stsearch-box input{
+    border: none !important;
+    margin-bottom: 0 !important;
 }
 @media (max-width:992px) {
     .texts {
