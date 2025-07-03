@@ -22,7 +22,7 @@ function Landing() {
       useEffect(()=>{
         setTimeout(() => {
           setModalShow(true)
-        }, 10000);
+        }, 3000);
       } , [])
 
   return (

@@ -12,8 +12,6 @@ import Swal from 'sweetalert2'
 import { CountrySelect } from "react-country-state-city";
 import getImageURL from '../utills/getImageURL';
 
-
-
 function BannerModal(props) {
     return (
         <Modal
@@ -57,7 +55,12 @@ function NewsLatterModal(props) {
             props.setModalShow(false)
 
         } catch (error) {
-            toast.error(error.response?.data?.message)
+                        Swal.fire({
+                title: "Error!",
+                text: error.response?.data?.message,
+                icon: "error",
+                confirmButtonText: "Close"
+            });
             setError(error.response?.data?.errors);
 
         }
@@ -296,7 +299,6 @@ export default function AddModal({ modalShow, setModalShow }) {
         fetchData()
     }, [])
 
-    console.log(popup);
 
     const imageUrl = getImageURL(popup.image)
 
